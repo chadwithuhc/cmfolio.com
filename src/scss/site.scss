@@ -1,0 +1,110 @@
+@import 'theme-default';
+
+#v3 .hashlink:before {
+  content: '#';
+  color: gray;
+}
+
+#v3 .hashlink {
+  color: goldenrod;
+}
+
+#v3 .contentLikes .hashlink:after {
+  content: ', ';
+  color: gray;
+}
+#v3 .contentLikes .hashlink:last-child:after {
+  content: '';
+}
+
+#v3 ::-moz-selection { background: goldenrod; }
+#v3 ::selection { background: goldenrod; color: white; }
+#v3 img::selection { background: none; color: white; }
+#v3 img::-moz-selection { background: none; color: white; }
+
+footer a {
+  color: #777 !important;
+}
+
+abbr {
+  //border-bottom: dotted 1px;
+  text-decoration: none;
+  cursor: help;
+}
+
+.pageHeader .blockNav, .pageHeader .linkNav {
+  padding-left: 0;
+  width: 28%;
+  padding: 0 2%;
+  display: inline-block;
+}
+.pageHeader .blockNav {
+  border-right: solid 1px #eee;
+}
+.blockNav-item {
+  display: block;
+}
+.blockNav-link {
+  float: none;
+  text-align: right;
+  border: solid 1px transparent;
+  border-bottom-color: #eee;
+}
+.blockNav-item:last-child .blockNav-link {
+  border-bottom-color: transparent;
+}
+.blockNav-title {
+  float: none;
+}
+
+.linkNav-item {
+  display: inline-block;
+  margin: 0;
+}
+.linkNav-link {
+  font-size: 1em;
+}
+.pageHeader .linkNav-link {
+  border: solid 1px lighten(#888, 35%);
+}
+
+@media (max-width: 1023px) {
+  .pageHeader .logoBlock {
+    border-bottom: dotted 1px #ddd;
+  }
+  .pageHeader .blockNav, .pageHeader .linkNav {
+    border-top: 0;
+    width: 50%;
+  }
+  .pageHeader .blockNav-link {
+    display: block;
+    border: solid 1px transparent;
+    border-bottom-color: #eee;
+  }
+}
+
+
+@media (max-width: 590px) {
+  .pageHeader .blockNav, .pageHeader .linkNav {
+    width: auto;
+    border-right: 0;
+    margin: 0;
+    padding: 1em;
+  }
+  .pageHeader .blockNav:before, .pageHeader .linkNav:before {
+    content: 'Projects:';
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 1em;
+    display: block;
+    color: #aaa;
+    margin-bottom: 0;
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+  }
+  .pageHeader .blockNav-link {
+    text-align: left;
+  }
+}
