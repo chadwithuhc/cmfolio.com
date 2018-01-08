@@ -60,7 +60,7 @@ function Project({ site, page, match }) {
                     })}
                   </ul>
         				</div>
-        				<a href={project.link} className="projectBlock-link" target="_blank" dangerouslySetInnerHTML={{__html:project.link_desc}}></a>
+        				<a href={project.link} className="projectBlock-link" target="_blank" rel="noopener noreferrer" dangerouslySetInnerHTML={{__html:project.link_desc}}></a>
         			</div>
             )
           })}
