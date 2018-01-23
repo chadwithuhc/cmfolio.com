@@ -12,11 +12,13 @@ function Routes() {
       <div>
         <PropsRoute path="/" component={Header}
           site={data.getAll()} page={data.getCurrentPage()} />
+        <hr/>
         <PropsRoute exact path="/" component={Home}
           site={data.getAll()} page={data.getPage('home')} />
         <PropsRoute exact path="/:pageName" component={Project}
           site={data.getAll()} page={data.getCurrentPage()} />
         <PropsRoute exact path="/:pageName/:projectId" component={Project} site={data.getAll()} page={data.getCurrentPage()} />
+        <hr className="hBar" />
       </div>
     </Router>
   )

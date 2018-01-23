@@ -12,6 +12,10 @@ export default {
     `🏔 Adventuring around <a rel="noopener noreferrer" href="https://www.instagram.com/jfdenver/" class="hashlink">Colorado</a>`,
     `<code>this</code> site`
   ],
+  recently_i_updated: [
+    `✏️ Everybody Writes <a href="/web/everybody-writes">&raquo;&raquo;</a>`,
+    `<code>this</code> site`
+  ],
   lists: [
     'branding', 'band names', 'rapper names',
     'inspirational quotes', 'public faces', 'tv'

@@ -10,6 +10,7 @@ export default {
   'projects': [
     {
       'id': 'danny',
+      'icon': 'DK',
       'name': 'Danny Karpinski',
       'type': 'Graphic Designer',
       'tech': ['Logos', 'Branding', 'Graphics', 'Design'],
@@ -23,6 +24,7 @@ export default {
     },
     {
       'id': 'ben',
+      'icon': 'BK',
       'name': 'Ben Karpinski',
       'type': 'Photographer',
       'tech': ['Skateboarding', 'Action Sports'],
@@ -37,6 +39,7 @@ export default {
     },
     {
       'id': 'don',
+      'icon': 'DL',
       'name': 'Don Luong',
       'type': 'Videographer',
       'tech': ['Videography', 'Editor', 'Skateboarding'],
@@ -51,6 +54,7 @@ export default {
     },
     {
       'id': 'rob',
+      'icon': 'r.',
       'name': 'r.cavallo',
       'type': 'Photographer / Retoucher',
       'tech': ['Photography', 'Photo Retouching'],
@@ -64,6 +68,7 @@ export default {
     },
     {
       'id': 'shredlove',
+      'icon': 'sdz',
       'name': 'shredlove',
       'type': 'Crew',
       'tech': ['Skateboarding', 'SDZ', 'Furnace Skate Shop'],
@@ -77,6 +82,7 @@ export default {
     },
     {
       'id': 'trent',
+      'icon': 'TK',
       'name': 'Trenton Kennedy',
       'type': 'Sr UI Developer',
       'tech': ['UI Developer', 'Triathlete'],

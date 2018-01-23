@@ -8,8 +8,28 @@ export default {
   ],
   'projects': [
     {
+      'id': 'everybody-writes',
+      'icon': '✏️',
+      'name': 'Real Time Classroom Board',
+      'type': 'Application',
+      'tech': [
+        'JavaScript',
+        'ES6 Classes',
+        'Socket.io',
+        'OSS'
+      ],
+      'desc': 'A real-time classroom feedback tool in your browser, featuring various editor types',
+      'descArray': [
+        'A real-time classroom feedback tool in your browser',
+        'featuring various editor types'
+      ],
+      'link': 'https://github.com/chadwithuhc/everybody-writes',
+      'link_desc': 'Read the code &raquo;'
+    },
+    {
       'id': 'ds-org-data-center',
-      'name': '📈 Custom Data Reporting',
+      'icon': '📈',
+      'name': 'Custom Data Reporting',
       'type': 'Application',
       'tech': [
         'AngularJS',
@@ -28,7 +48,8 @@ export default {
     },
     {
       'id': 'ds-org-style-guide',
-      'name': '🎨 Component Style Guide',
+      'icon': '🎨',
+      'name': 'Component Style Guide',
       'type': 'Style Guide',
       'tech': [
         'Components',
@@ -45,7 +66,8 @@ export default {
     },
     {
       'id': 'ds-org-navigation',
-      'name': '📱 Responsive Dropdown Navigation',
+      'icon': '📱',
+      'name': 'Responsive Dropdown Navigation',
       'type': 'UI Component',
       'tech': [
         'Responsive',
@@ -64,7 +86,8 @@ export default {
     },
     {
       'id': 'ds-org-rankings-grid',
-      'name': '⌗ Flexible Data Grid',
+      'icon': '⌗',
+      'name': 'Flexible Data Grid',
       'type': 'UI Component',
       'tech': [
         'Components',
@@ -82,7 +105,8 @@ export default {
     },
     {
       'id': 'redkix-landing',
-      'name': '📲 Responsive Website',
+      'icon': '📲',
+      'name': 'Responsive Website',
       'type': 'Responsive',
       'tech': [
         'Responsive',
@@ -100,7 +124,8 @@ export default {
     },
     /*{
       'id': 'members-directory',
-      'name': '👤 Members Directory',
+      'icon': '👤',
+      'name': 'Members Directory',
       'type': 'Prototype',
       'tech': [
         'Single Page Application',
@@ -118,7 +143,8 @@ export default {
     },
     {
       'id': 'quotator',
-      'name': '❝ Quotator',
+      'icon': '❝',
+      'name': 'Quotator',
       'type': 'Prototype',
       'tech': [
         'Single Page Application',
@@ -136,7 +162,8 @@ export default {
     },*/
     {
       'id': 'rotator',
-      'name': '♻︎ Rotator.js',
+      'icon': '♻︎',
+      'name': 'Rotator.js',
       'type': 'Plugin',
       'tech': [
         'JavaScript',
@@ -153,7 +180,8 @@ export default {
     },
     /*{
       'id': 'docs-template',
-      'name': '👓 Docs Template',
+      'icon': '👓',
+      'name': 'Docs Template',
       'type': 'Boilerplate',
       'tech': [
         'HTML/CSS',

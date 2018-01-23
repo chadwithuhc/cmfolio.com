@@ -68,6 +68,52 @@ abbr {
   border: solid 1px lighten(#888, 35%);
 }
 
+.projectBlock {
+  border-radius: 0.3em;
+  border-top: dotted 1px #aaa;
+}
+.projectBlock .notes-lineItem {
+  text-align: center;
+}
+.projectBlock-title {
+  border-top: 0;
+  text-align: center;
+}
+.projectBlock-title .icon {
+  display: block;
+  background: white;
+  border-radius: 100%;
+  width: 2em;
+  margin: -0.5em auto 0.3em;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+.projectBlock-sidebox {
+  background: oldlace;
+  border: 3px solid burlywood;
+  border-radius: 0.3em;
+  left: 105%;
+  box-sizing: border-box;
+  opacity: 0.9;
+}
+.projectBlock-titleAlt {
+  border-top: 0;
+  color: brown;
+}
+.projectBlock .bulletList-item {
+  display: inline-block;
+  color: rosybrown;
+  border-bottom: 1px solid rosybrown;
+  font-style: normal;
+  margin-right: 0.7em;
+}
+
+#ds-org-rankings-grid .icon,
+#shredlove .icon {
+  position: relative;
+  top: -0.2em;
+}
+
 @media (max-width: 1023px) {
   .pageHeader .logoBlock {
     border-bottom: dotted 1px #ddd;
@@ -81,6 +127,18 @@ abbr {
     border: solid 1px transparent;
     border-bottom-color: #eee;
   }
+
+  .projectBlock-sidebox {
+    padding: 0.5em 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+  }
+  .projectBlock-info {
+    .notes {
+      margin-bottom: 0;
+    }
+  }
 }
 
 
@@ -92,7 +150,7 @@ abbr {
     padding: 1em;
   }
   .pageHeader .blockNav:before, .pageHeader .linkNav:before {
-    content: 'Projects:';
+    // content: 'Projects:';
     text-transform: uppercase;
     text-align: left;
     font-size: 1em;
@@ -106,5 +164,9 @@ abbr {
   }
   .pageHeader .blockNav-link {
     text-align: left;
+  }
+
+  .projectBlock-title .icon {
+    margin-top: -0.7em;
   }
 }

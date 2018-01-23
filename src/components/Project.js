@@ -20,7 +20,7 @@ function Project({ site, page, match }) {
               })}
             </p>
           </article>
-          <hr className="hBar" v-if="page.intro && page.intro.length" />
+          <hr className="hBar" />
         </header>
         : null}
 
@@ -41,15 +41,17 @@ function Project({ site, page, match }) {
     			<h1 id="projects-title">{page.projectsLabel || `Projects`}</h1>
     			{(page.currentProject ? [page.currentProject] : page.projects).map(project => {
             return (
-              <div key={project.id} id={project.id} className="projectBlock">
-        				<h2 className="projectBlock-title">{project.name}</h2>
-        				<p className="notes">
-                  {project.descArray.map((line, i) => {
-                    return (
-                      <span key={i} className="notes-lineItem" dangerouslySetInnerHTML={{__html:line}}></span>
-                    )
-                  })}
-                </p>
+              <section key={project.id} id={project.id} className="projectBlock">
+                <header className="projectBlock-info">
+                  <h2 className="projectBlock-title"><span className="icon">{project.icon}</span> {project.name}</h2>
+                  <p className="notes">
+                    {project.descArray.map((line, i) => {
+                      return (
+                        <span key={i} className="notes-lineItem" dangerouslySetInnerHTML={{__html:line}}></span>
+                      )
+                    })}
+                  </p>
+                </header>
         				<div className="projectBlock-sidebox">
         					<h2 className="projectBlock-titleAlt">{project.type}</h2>
         					<ul className="notes">
@@ -61,7 +63,7 @@ function Project({ site, page, match }) {
                   </ul>
         				</div>
         				<a href={project.link} className="projectBlock-link" target="_blank" rel="noopener noreferrer" dangerouslySetInnerHTML={{__html:project.link_desc}}></a>
-        			</div>
+        			</section>
             )
           })}
     		</div>

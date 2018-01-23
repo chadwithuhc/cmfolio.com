@@ -8,7 +8,8 @@ export default {
   'projects': [
     {
       'id': 'jfdenver',
-      'name': '🌲 JFDenver',
+      'icon': '🌲',
+      'name': 'JFDenver',
       'type': 'Photo Collection',
       'tech': ['Mobile Photography', 'Social'],
       'desc': 'All things Colorado; All the time',
@@ -20,7 +21,8 @@ export default {
     },
     {
       'id': 'stadium-sunsets',
-      'name': '🌇 Stadium Sunsets',
+      'icon': '🌇',
+      'name': 'Stadium Sunsets',
       'type': 'Photo Collection',
       'tech': ['Nature', 'Landscape', 'Urban'],
       'desc': 'A few of my favorite things: clouds, sunsets, and baseball stadiums.',
@@ -33,7 +35,8 @@ export default {
     },
     {
       'id': 'public-faces',
-      'name': '👾 Public Faces',
+      'icon': '👾',
+      'name': 'Public Faces',
       'type': 'Photo Collection',
       'tech': ['Mobile Photography', 'Social'],
       'desc': 'Ever seen something that looks like a face in public? I see it often.',
@@ -46,7 +49,8 @@ export default {
     },
     {
       'id': 'chill-spots',
-      'name': '🤤 Chill Spots',
+      'icon': '🤤',
+      'name': 'Chill Spots',
       'type': 'Photo Collection',
       'tech': ['Mobile Photography', 'Good Vibes'],
       'desc': `There's a lot of great spots to chill out, man.`,
@@ -58,7 +62,8 @@ export default {
     },
     {
       'id': 'must-be-nice',
-      'name': '📼 Must Be Nice',
+      'icon': '📼',
+      'name': 'Must Be Nice',
       'type': 'Video, Skateboarding',
       'tech': ['Videography', 'Director', 'Editor'],
       'desc': `Cypress, CA's finest skateboarders`,
