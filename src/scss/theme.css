@@ -1,0 +1,519 @@
+/**
+* Docs - A theme for Docs built on Skeleton
+*
+* @author   cmfolio
+* @website  http://web.cmfolio.com/projects/docs-template/
+* @license  MIT License
+*/
+@import url(//fonts.googleapis.com/css?family=Arvo);
+
+/* default styles */
+a, a:link {
+  color: royalblue
+}
+
+a:visited {
+  color: slategray
+}
+
+a:hover, a:active {
+  color: #c00
+}
+
+/* skeleton override */
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-size: 1.3em;
+  font-weight: bold
+}
+
+/*@ content */
+code, pre {
+  background: #f9f9f9;
+  font-family: Courier;
+  padding: 2px;
+  margin: 0px;
+  color: #c00;
+  white-space: pre-wrap
+}
+
+code span {
+  font-family: Courier, monospace
+}
+
+pre {
+  margin-bottom: 20px
+}
+
+var {
+  color: #c00;
+  font-family: Courier, monospace
+}
+
+ul.list li {
+  list-style: disc;
+  margin-left: 15px
+}
+
+ol.numbers {
+  margin-left: 20px
+}
+
+ol.numbers li {
+  list-style-type: decimal;
+  list-style-position: outside;
+  margin-left: 5px
+}
+
+p, ul, ol {
+}
+
+ul ul {
+  padding: 0
+}
+
+li {
+  color: #000
+}
+
+/* syntax coloring overrides */
+pre .title,
+pre .params { /* override */
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  float: inherit;
+  padding: inherit;
+  margin: inherit;
+  background: inherit;
+  float: inherit;
+  clear: inherit
+}
+
+/* global */
+body {
+  background: #eee;
+}
+
+.wrapper {
+  margin: 0
+}
+
+.show {
+  display: block !important
+}
+
+/* items */
+#projects, #posts {
+}
+
+#projects-title {
+  text-align: center;
+  font: bold 30px 'Arvo', 'Myriad Pro', Arial, sans-serif;
+  margin: 40px 0;
+  display: none
+}
+
+#projects .project, #posts .post {
+  padding: 10px 20px;
+  margin: 0 0 40px;
+  border: double 3px #eee;
+  clear: both;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#projects .project p {
+  position: relative;
+  padding: 5px 10px 5px 50px;
+  clear: both;
+  margin: 0
+}
+
+#projects .project .title, #posts .post .title {
+  font: normal 30px 'Arvo', 'Myriad Pro', Arial, sans-serif;
+}
+
+#projects .project .label {
+  font-style: normal;
+  padding: 5px;
+  display: block;
+  width: 35px;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  left: 0
+}
+
+#projects .project .type {
+  font-style: italic;
+}
+
+#projects .project a.link, #posts .post a.link {
+  display: block;
+  clear: left;
+  padding: 2px 5px;
+  margin: 10px 0px;
+  text-decoration: none;
+}
+
+.wrapper {
+  margin: 1em auto;
+  width: 80%;
+  background: #fff;
+  border-left: solid 5vw white;
+  border-right: solid 5vw white;
+}
+
+/* Sidebar */
+
+.sidebar {
+  float: left;
+  margin-right: .2em;
+  text-align: center;
+}
+
+.sidebar-shrunk {
+  max-width: 159px;
+  position: relative;
+  z-index: 1;
+}
+
+.sidebar-shrunk:hover {
+  max-width: none;
+  text-align: center;
+}
+
+/* Avatar */
+
+.avatar {
+  display: block;
+  padding: 1em;
+  background: #fff;
+}
+
+/* Type */
+
+.type {
+  font: normal 20px/20px 'Arvo', 'Myriad Pro', Arial, sans-serif;
+  color: #000;
+  vertical-align: -1px;
+}
+
+.type-inverted {
+  color: white;
+  background: #222;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.type-topBordered {
+  border-top: solid 3px #222;
+}
+
+.type-bigBold {
+  font: bold 1.4em/20px 'Arvo', 'Myriad Pro', Arial, sans-serif;
+  color: #000;
+}
+
+.byCm {
+  font: normal 12px/20px 'Arvo', 'Myriad Pro', Arial, sans-serif;
+  color: #aaa;
+  text-transform: lowercase;
+  vertical-align: -1px;
+}
+
+.byCm img {
+  vertical-align: -1px;
+}
+
+/* Borders */
+
+.leftBar {
+  border-left: solid 1px #ccc;
+}
+
+.hBar {
+  background: white;
+  border-style: dotted;
+  font-size: 3em;
+}
+
+/* Content */
+
+.content {
+  background: white;
+  padding: 1em;
+  float: left;
+}
+
+.contentMain {
+  max-width: 900px;
+  margin: 0 auto;
+  float: none;
+}
+
+.contentMain + .sidebar-shrunk {
+  position: relative;
+  left: -12.5%;
+}
+
+.footer {
+  padding: 0 0 2em;
+  font-size: 0.8em;
+  text-align: center;
+  color: #999;
+}
+
+/* Link Nav */
+
+.linkNav {
+  margin: 1em;
+  text-align: left;
+}
+
+.linkNav-link {
+  display: block;
+  padding: 2px 5px;
+  margin: 2px;
+  color: #888;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.linkNav-link:hover, .linkNav-link.selected {
+  background: #ddd;
+  color: #000;
+}
+
+/* Block Nav */
+
+.blockNav {
+  padding: 0;
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+}
+
+.blockNav:hover .blockNav-item {
+  opacity: 0.3;
+}
+
+.blockNav:hover .blockNav-item:hover {
+  opacity: 1;
+}
+
+.blockNav-item {
+  transition: all 0.3s ease;
+  list-style: none;
+  display: inline-block;
+  margin-right: .1em;
+}
+
+.blockNav-item:nth-child(2) .blockNav-link,
+.blockNav-item:last-child .blockNav-link { /* Remove lines */
+  border-right: 0;
+}
+
+.blockNav-link {
+  display: block;
+  float: left;
+  padding: .5em 1em;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  /*border-top: solid 1px #eee !important;*/
+  border: solid 1px transparent;
+  border-right-color: #eee;
+  border-left: solid 5px transparent;
+  /*border-bottom: solid 5px transparent;*/
+}
+
+/*.blockNav-link:hover, .blockNav-link:active, .blockNav-link.active {*/
+/*border-color: #eee;*/
+/*border-left-color: slategray;*/
+/*}*/
+.blockNav-logoLink {
+  border: solid 1px #eee;
+  padding: .5em;
+  margin: .5em;
+}
+
+.blockNav-logoLink:hover, .blockNav-logoLink:active, .blockNav-logoLink.active {
+  border-color: slategray;
+}
+
+.blockNav-title {
+  display: block;
+  float: left;
+  color: #000;
+}
+
+.blockNav-linkSmall {
+  display: block;
+  clear: both;
+  font: 300 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #999;
+}
+
+.blockNav-sep {
+  /*display: block;*/
+  /*border-top: solid 1px #aaa;*/
+  width: 100%;
+  /*height: 1px;*/
+  overflow: hidden;
+}
+
+/* Notes */
+
+.notes {
+  padding: 1em;
+  text-align: left;
+}
+
+.notes-title {
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 1em;
+  display: block;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+.notes-lineItem {
+  border-bottom: solid 1px #ccc;
+  padding: .5em .5em .3em;
+  display: block;
+}
+
+/* Project Block */
+.projectBlock {
+  border: dotted 1px #aaa;
+  border-top: 0;
+  margin: 0 0 3em;
+  position: relative;
+}
+
+.projectBlock-title {
+  border-top: solid 5px #222;
+  padding-left: 1em;
+  margin: 0;
+}
+
+.projectBlock-titleAlt {
+  border-top: solid 5px lightslategray;
+  padding-left: 1em;
+  margin-bottom: -.7em;
+  font-size: 1.2em;
+  color: lightslategray;
+}
+
+.projectBlock-link {
+  text-align: center;
+  font-size: 1.2em;
+  display: block;
+  padding: .5em 1em;
+}
+
+.projectBlock .notes {
+  /*width: 45%;*/
+  /*display: inline-block;*/
+}
+
+.projectBlock .bulletList-item {
+  font-style: italic;
+  padding-left: .2em;
+  color: lightslategray;
+}
+
+.projectBlock-sidebox {
+  background: #eee;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 60%;
+  height: 100%;
+  border-bottom: solid 1px #eee;
+}
+
+.logoBlock {
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Homepage */
+.pageHeader .logoBlock {
+  width: 30%;
+  display: inline-block;
+}
+
+.pageHeader .blockNav {
+  display: inline-block;
+  width: 545px;
+  margin: 2.6em 0 1em;
+  border-left: solid 1px #eee;
+  padding-left: 2%;
+}
+
+@media (max-width: 1023px) {
+  .pageHeader .logoBlock {
+    width: 100%;
+    display: block;
+  }
+  .pageHeader .blockNav {
+    display: block;
+    width: 100%;
+    margin: 1.6em 0 0.4em;
+    border-left: 0;
+    border-top: solid 1px #eee;
+    padding-left: 0;
+    padding-top: 1.6em;
+  }
+  .pageHeader .blockNav-link {
+    border: 0;
+  }
+  .pageHeader .blockNav-title {
+    float: none;
+  }
+  .contentMain {
+    padding: 0;
+  }
+  .notes-lineItem {
+    line-height: 1.4em;
+    font-size: 18px;
+    padding: 0.5em 0;
+  }
+  .projectBlock-sidebox {
+    position: static;
+    width: 100%;
+  }
+  .projectBlock-sidebox .notes {
+    margin: 0;
+    padding: 1em 1em 0;
+  }
+  .projectBlock-title {
+    padding-left: 0;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    padding-top: 0.4em;
+  }
+  .projectBlock > .notes {
+    margin: 0;
+  }
+  .projectBlock .notes-lineItem {
+    display: inline;
+    border: 0;
+    font-size: 14px;
+  }
+  .projectBlock .notes-lineItem + .notes-lineItem {
+    margin-left: 5px;
+  }
+  .projectBlock-link {
+    font-size: 1.1em;
+  }
+}

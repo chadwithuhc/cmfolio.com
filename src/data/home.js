@@ -5,16 +5,22 @@ export default {
     `🦁 I am happy when being <a class="hashlink">creative</a> and working on lots of <a class="hashlink">ideas</a> at once`
   ],
   currently_i_am_working_on: [
-    `🍍 Molding minds at Galvanize in Denver, CO`,
-    `🤖 Creating a data-driven classroom`,
-    `✏️ Building fancy educational tools: <em>Definitions API</em>, <em>LP</em>`,
-    `🎈 Coding for fun: <em>Tracker</em>`,
+    `🤖 Creating a data-driven classroom at Galvanize in Denver, CO`,
+    `✏️ Building fancy educational tools: <em>LP</em>, <em>SIS</em>`,
+    `🎈 Coding for fun: <em>Tracker</em>, <code>this</code> site`,
+    `🗄 Archiving film photos`,
     `🏔 Adventuring around <a rel="noopener noreferrer" href="https://www.instagram.com/jfdenver/" class="hashlink">Colorado</a>`,
-    `<code>this</code> site`
+    '🕯 Minimizing'
+  ],
+  currently_i_am_learning: [
+    `🎹 Piano`,
+    `🎬 Video Directing & Editing <small><em>(again)</em></small>`
   ],
   recently_i_updated: [
+    `📔 Definitions API <a href="https://terms.galvanize.network/" target="blank" rel="noreferrer noopener">&raquo;&raquo;</a>`,
+    `🗜 Prototypes <a href="https://chadwithuhc.github.io/prototypes/" target="blank" rel="noreferrer noopener">&raquo;&raquo;</a>`,
+    `👾 Public Faces, 🤤 Chill Spots, 🌇 Stadium Sunsets <a href="/photo-video/">&raquo;&raquo;</a>`,
     `✏️ Everybody Writes <a href="/web/everybody-writes">&raquo;&raquo;</a>`,
-    `<code>this</code> site`
   ],
   lists: [
     'branding', 'band names', 'rapper names',
