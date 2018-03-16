@@ -5,6 +5,10 @@ import data from '../data/index'
 function Header({ site, page }) {
   page = data.getCurrentPage()
 
+  if (!page.projects) {
+    return null
+  }
+
   return (
     <header className="pageHeader">
     	<nav className="logoBlock">
@@ -31,6 +35,7 @@ function Header({ site, page }) {
           )
         })}
     	</ul>
+      <hr/>
     </header>
   )
 }

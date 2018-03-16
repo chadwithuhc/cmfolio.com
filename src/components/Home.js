@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from './Header'
+import Footer from './Footer'
 
 function Home({ site, page }) {
   return (
     <article>
+    <Header site={site} page={page} />
     <section className="content contentMain clearfix">
       <article className="notes">
         <h1 className="notes-title">Notes:</h1>
@@ -52,6 +55,7 @@ function Home({ site, page }) {
         </p>
       </article>
     </section>
+    <Footer />
     </article>
   )
 }

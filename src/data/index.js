@@ -25,6 +25,14 @@ export default {
     }
 
     return page
+  },
+
+  getProjectFromPage(projectName, page) {
+    if (!projectName || !page.projects) {
+      return null
+    }
+
+    return page.projects.find(proj => proj.id === projectName)
   }
 
 }

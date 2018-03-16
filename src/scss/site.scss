@@ -71,6 +71,8 @@ abbr {
 .projectBlock {
   border-radius: 0.3em;
   border-top: dotted 1px #aaa;
+  min-width: 25em;
+  max-width: 100%;
 }
 .projectBlock .notes-lineItem {
   text-align: center;

@@ -7,9 +7,6 @@ class App extends Component {
     return (
       <section>
         <Routes />
-        <footer className="footer">
-          &copy; <a href="http://hydehandcrafted.com/" target="_blank" rel="noopener noreferrer">2003</a>-{(new Date()).getFullYear()} cmfolio.com &mdash; contact: <a href="mailto:chad@cmfolio.com">chad@cmfolio.com</a>
-        </footer>
       </section>
     )
   }
