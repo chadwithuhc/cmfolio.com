@@ -110,6 +110,10 @@ abbr {
   margin-right: 0.7em;
 }
 
+.notes-title {
+  margin-bottom: 1em;
+}
+
 #ds-org-rankings-grid .icon,
 #shredlove .icon {
   position: relative;
@@ -172,3 +176,5 @@ abbr {
     margin-top: -0.7em;
   }
 }
+
+@import 'resume';

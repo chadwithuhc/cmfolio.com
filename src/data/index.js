@@ -1,4 +1,5 @@
 import site from './site'
+import resumes from './resumes/index'
 
 export default {
 
@@ -33,6 +34,32 @@ export default {
     }
 
     return page.projects.find(proj => proj.id === projectName)
+  },
+
+  getResume(companyId) {
+    if (resumes.hasOwnProperty(companyId)) {
+      return resumes[companyId]
+    }
+
+    return null
+  },
+
+  getResumePage() {
+    const [, pageName, companyId] = window.location.pathname.split(`/`)
+
+    if (!companyId && pageName !== 'resume') {
+      return null
+    }
+
+    const page = this.getResume(companyId)
+
+    // Redirect on incorrect page URL
+    if (!page) {
+      window.location.replace(`/`)
+      // throw new Error(`Page Not Found: ${companyId}`)
+    }
+
+    return page
   }
 
 }

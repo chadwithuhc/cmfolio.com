@@ -1,0 +1,90 @@
+.resume__title {
+  font-weight: normal;
+  font-size: 1.4em;
+  line-height: 2em;
+  text-align: center; }
+  .resume__title strong {
+    font-size: 1.4em; }
+
+.resume-content {
+  display: flex; }
+
+.resume-jobs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .resume-jobs > .notes-title {
+    width: 100%; }
+
+.resume-skills {
+  display: none; }
+
+.resume-skills__tag {
+  display: block;
+  float: left;
+  border: solid 1px goldenrod;
+  border-radius: 0.2em;
+  padding: 0.4em 0.6em;
+  margin-bottom: 0.4em;
+  margin-right: 0.4em; }
+
+.resume-job {
+  flex: 0 0 50%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 2em; }
+
+.resume-job__company {
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 1em;
+  letter-spacing: 0.1em;
+  margin-bottom: 0; }
+
+.resume-job__header {
+  margin-bottom: 1em; }
+
+.resume-job__position {
+  line-height: 1.2em;
+  margin: 0; }
+
+.resume-job__highlights {
+  display: flex;
+  clear: both;
+  flex-direction: column;
+  width: 90%; }
+
+.resume-job__subtitle {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  line-height: 1em;
+  display: block;
+  color: #aaa; }
+
+.resume-job__tag {
+  display: block;
+  float: left;
+  border: solid 1px goldenrod;
+  border-radius: 0.2em;
+  padding: 0.4em 0.6em;
+  margin: 0 0.4em 1em 0; }
+
+.resume__footer {
+  text-align: center;
+  font-size: 0.8em;
+  color: lightslategrey; }
+
+@media print {
+  body {
+    font-size: 75%; }
+  .wrapper {
+    width: auto;
+    margin: 0;
+    border: solid 1px white; }
+  .hBar {
+    width: 80%;
+    margin: 1em auto; }
+  .notes {
+    padding: 0; }
+  .notes-lineItem {
+    font-size: 1em; } }

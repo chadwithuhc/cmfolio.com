@@ -13,8 +13,10 @@ function Routes() {
         <Switch>
           <PropsRoute exact path="/" component={Home}
             site={data.getAll()} page={data.getPage('home')} />
-          <PropsRoute exact path="/resume" component={Resume}
-            site={data.getAll()} page={data.getPage('resume')} />
+          {/* <PropsRoute exact path="/resume" component={Resume}
+            site={data.getAll()} page={data.getPage('resume')} /> */}
+          <PropsRoute exact path="/resume/:companyId" component={Resume}
+            site={data.getAll()} page={data.getResumePage()} />
           <PropsRoute exact path="/web" component={Project}
             site={data.getAll()} page={data.getPage('web')} />
           <PropsRoute exact path="/photo-video" component={Project}
@@ -22,6 +24,7 @@ function Routes() {
           <PropsRoute exact path="/friends" component={Project}
             site={data.getAll()} page={data.getPage('friends')} />
           <PropsRoute exact path="/:pageName/:projectId" component={Project} site={data.getAll()} page={data.getCurrentPage()} />
+          {/* <Redirect to="/404" /> */}
         </Switch>
       </div>
     </Router>
