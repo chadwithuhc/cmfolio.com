@@ -2,7 +2,7 @@ import React from 'react'
 
 function Resume({ site, page }) {
   return (
-    <article>
+    <article className="resume">
     <header className="resume-header">
       <h1 className="resume__title">
         <strong>{page.contact.name}</strong> is looking to be <br/>
@@ -13,17 +13,17 @@ function Resume({ site, page }) {
       {/* <h2>{page.contact.email}</h2>
       <h3>{page.contact.website}</h3>
       <h4><span className="fa fa-github"></span> {page.contact.code}</h4> */}
+      <section className="resume-profile">
+        <article className="notes">
+          <h1 className="notes-title">Professional Profile:</h1>
+          <p className="type">
+            {page.professional_profile.map((line, i) => {
+              return <span key={i} className="notes-lineItem" dangerouslySetInnerHTML={{__html:line}}></span>
+            })}
+          </p>
+        </article>
+      </section>
     </header>
-    <section className="resume-profile">
-      <article className="notes">
-        <h1 className="notes-title">Professional Profile:</h1>
-        <p className="type">
-          {page.professional_profile.map((line, i) => {
-            return <span key={i} className="notes-lineItem" dangerouslySetInnerHTML={{__html:line}}></span>
-          })}
-        </p>
-      </article>
-    </section>
     <hr className="hBar" />
     <section className="resume-content">
       <article className="notes resume-skills">

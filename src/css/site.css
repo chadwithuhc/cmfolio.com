@@ -1182,6 +1182,13 @@ abbr {
   .projectBlock-title .icon {
     margin-top: -0.7em; } }
 
+.resume {
+  padding: 2em 0; }
+
+.resume-header {
+  display: flex;
+  justify-content: space-between; }
+
 .resume__title {
   font-weight: normal;
   font-size: 1.4em;
