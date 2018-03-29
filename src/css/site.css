@@ -1189,13 +1189,35 @@ abbr {
   display: flex;
   justify-content: space-between; }
 
+.resume-header__title {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  width: 40em;
+  flex: 0 0 auto; }
+
 .resume__title {
   font-weight: normal;
-  font-size: 1.4em;
-  line-height: 2em;
-  text-align: center; }
+  font-size: 2em;
+  line-height: 1em;
+  text-transform: uppercase; }
   .resume__title strong {
     font-size: 1.4em; }
+
+.resume-header__subtitle {
+  font-size: 2em;
+  font-style: italic; }
+
+.resume-header__links {
+  display: flex;
+  justify-content: space-around; }
+
+.notes-lineItem {
+  font-size: 1.1em; }
+
+.resume-profile .notes-lineItem {
+  border: 0;
+  white-space: nowrap; }
 
 .resume-content {
   display: flex; }
@@ -1208,7 +1230,13 @@ abbr {
     width: 100%; }
 
 .resume-skills {
-  display: none; }
+  display: flex;
+  justify-content: space-between;
+  font-size: 5em;
+  flex-wrap: wrap;
+  width: 3.9em;
+  margin-left: auto;
+  margin-right: auto; }
 
 .resume-skills__tag {
   display: block;
@@ -1265,17 +1293,39 @@ abbr {
   font-size: 0.8em;
   color: lightslategrey; }
 
+@media screen and (max-width: 1260px) {
+  .wrapper {
+    width: 90%;
+    min-width: 1122px;
+    border-left-width: 3em;
+    border-right-width: 3em;
+    box-sizing: border-box; }
+  .notes-lineItem {
+    line-height: 1.1em;
+    padding: 0.5em 0.5em 0.3em; } }
+
 @media print {
   body {
     font-size: 75%; }
+  .print-hidden {
+    display: none; }
   .wrapper {
     width: auto;
     margin: 0;
     border: solid 1px white; }
-  .hBar {
-    width: 80%;
-    margin: 1em auto; }
+  .resume {
+    padding: 2em 0 0 0; }
   .notes {
     padding: 0; }
-  .notes-lineItem {
-    font-size: 1em; } }
+  .resume-profile .notes-lineItem {
+    line-height: 0.8em; }
+  .resume-header__title {
+    width: 35em; }
+  .resume-header__subtitle {
+    line-height: 1em; }
+  .resume-header__links a {
+    color: black; }
+  .resume-skills {
+    font-size: 4.4em; }
+  .resume__footer {
+    margin-bottom: 0; } }

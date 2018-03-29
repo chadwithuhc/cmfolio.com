@@ -4,38 +4,41 @@ function Resume({ site, page }) {
   return (
     <article className="resume">
     <header className="resume-header">
-      <h1 className="resume__title">
-        <strong>{page.contact.name}</strong> is looking to be <br/>
-        the next <strong>{page.position}</strong> <br/>
-        at <strong>{page.companyName}</strong>
-      </h1>
-
-      {/* <h2>{page.contact.email}</h2>
-      <h3>{page.contact.website}</h3>
-      <h4><span className="fa fa-github"></span> {page.contact.code}</h4> */}
-      <section className="resume-profile">
-        <article className="notes">
-          <h1 className="notes-title">Professional Profile:</h1>
-          <p className="type">
-            {page.professional_profile.map((line, i) => {
-              return <span key={i} className="notes-lineItem" dangerouslySetInnerHTML={{__html:line}}></span>
-            })}
-          </p>
-        </article>
+      <section className="resume-header__title">
+        <h2 className="resume-header__subtitle">
+          Hi, {page.companyName}! I'm
+        </h2>
+        <h1 className="resume__title">
+          <strong>{page.contact.name}</strong> <br/>
+          <small>{page.position}</small>
+        </h1>
+        <nav className="resume-header__links">
+          <a href="https://cmfolio.com/" rel="noreferer noopener"><i className="fa fa-fort-awesome"></i> {page.contact.email}</a>
+          <a href="https://linkedin.com/in/chadwithuhc" rel="noopener noreferrer" target="_blank"><i className="fa fa-linkedin"></i> / chadwithuhc</a>
+          <a href="https://github.com/chadwithuhc" rel="noopener noreferrer" target="_blank"><i className="fa fa-github"></i> / chadwithuhc</a>
+        </nav>
+        <hr className="hBar" />
+        <section className="resume-profile">
+          <article className="notes">
+            <h1 className="notes-title">Profile:</h1>
+            <p className="type">
+              {page.professional_profile.map((line, i) => {
+                return <span key={i} className="notes-lineItem" dangerouslySetInnerHTML={{__html:line}}></span>
+              })}
+            </p>
+          </article>
+        </section>
+      </section>
+      <section className="resume-skills">
+        {page.skills.map(skill => {
+          return (
+            <i key={skill} className={`${skill}`}></i>
+          )
+        })}
       </section>
     </header>
     <hr className="hBar" />
     <section className="resume-content">
-      <article className="notes resume-skills">
-        <h1 className="notes-title">Skills:</h1>
-        <p className="type">
-          {page.skills.map((line, i) => {
-            return (
-              <span key={i} className="resume-skills__tag" dangerouslySetInnerHTML={{__html:line}}></span>
-            )
-          })}
-        </p>
-      </article>
       <article className="notes resume-jobs">
         <h1 className="notes-title">Experiences:</h1>
         {page.experiences.map((job, i) => {
@@ -61,7 +64,6 @@ function Resume({ site, page }) {
                   )
                 })}
               </section>
-              {/* <hr className="hBar" /> */}
             </div>
           )
         })}
@@ -72,7 +74,7 @@ function Resume({ site, page }) {
       <p>
         This page was personally designed for <strong>{page.companyName}</strong>
         <br/>
-        Print it or view it online at <strong>cmfolio.com/resume/{page.companyId}</strong>
+        Print and view it online at <strong>cmfolio.com/resume/{page.companyId}</strong>
       </p>
     </footer>
     </article>
