@@ -1,5 +1,9 @@
 @import 'theme-default';
 
+body {
+  font-size: 125%;
+}
+
 #v3 .hashlink:before {
   content: '#';
   color: gray;
@@ -61,8 +65,11 @@ abbr {
   display: inline-block;
   margin: 0;
 }
-.linkNav-link {
+.sidebar .linkNav-link {
   font-size: 1em;
+}
+.sidebar .linkNav-title {
+  line-height: 2em;
 }
 .pageHeader .linkNav-link {
   border: solid 1px lighten(#888, 35%);
@@ -71,7 +78,7 @@ abbr {
 .projectBlock {
   border-radius: 0.3em;
   border-top: dotted 1px #aaa;
-  min-width: 25em;
+  // min-width: 25em;
   max-width: 100%;
 }
 .projectBlock .notes-lineItem {
@@ -114,19 +121,34 @@ abbr {
   margin-bottom: 1em;
 }
 
-#ds-org-rankings-grid .icon,
-#shredlove .icon {
+#ds-org-rankings-grid .icon {
   position: relative;
   top: -0.2em;
 }
 
-@media (max-width: 1023px) {
+#shredlove .icon {
+  position: relative;
+  top: -0.1em;
+  width: 2.6em;
+}
+
+#danny .icon, #ben .icon,
+#don .icon, #rob .icon,
+#shredlove .icon, #trent .icon {
+  margin-top: -0.6em;
+}
+
+@media (max-width: 1024px) {
   .pageHeader .logoBlock {
     border-bottom: dotted 1px #ddd;
   }
-  .pageHeader .blockNav, .pageHeader .linkNav {
+  .pageHeader .blockNav {
     border-top: 0;
-    width: 50%;
+    width: 46%;
+  }
+  .pageHeader .linkNav {
+    border-top: 0;
+    width: 37%;
   }
   .pageHeader .blockNav-link {
     display: block;
@@ -145,12 +167,26 @@ abbr {
       margin-bottom: 0;
     }
   }
+
+  .projectBlock-title .icon {
+    margin-top: -0.8em;
+  }
+
+  #ds-org-rankings-grid .icon {
+    top: -0.1em;
+  }
+
+  #danny .icon, #ben .icon,
+  #don .icon, #rob .icon,
+  #shredlove .icon, #trent .icon {
+    margin-top: -0.8em;
+  }
 }
 
 
 @media (max-width: 590px) {
   .pageHeader .blockNav, .pageHeader .linkNav {
-    width: auto;
+    width: 90%;
     border-right: 0;
     margin: 0;
     padding: 1em;
@@ -172,8 +208,17 @@ abbr {
     text-align: left;
   }
 
-  .projectBlock-title .icon {
-    margin-top: -0.7em;
+  // .projectBlock-title .icon {
+  //   margin-top: -0.7em;
+  // }
+}
+
+.contentMain {
+  .sidebar {
+    font-size: 80%;
+  }
+  .content {
+    font-size: 70%;
   }
 }
 

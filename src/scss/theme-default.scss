@@ -1041,7 +1041,7 @@ body {
 
 .footer {
     padding: 0 0 2em;
-    font-size: 0.8em;
+    font-size: 0.6em;
     text-align: center;
     color: #999;
 }
@@ -1053,7 +1053,8 @@ body {
 
 .linkNav-link {
     display: block;
-    padding: 2px 5px;
+    font-size: 0.8em;
+    padding: 0.4em 0.4em 0.3em;
     margin: 2px;
     color: #888 !important;
     -webkit-border-radius: 3px;
@@ -1144,7 +1145,7 @@ body {
 
 .notes-title {
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 1em;
     display: block;
     color: #aaa;
@@ -1152,6 +1153,7 @@ body {
 }
 
 .notes-lineItem {
+    font-size: 1.1em;
     border-bottom: solid 1px #ccc;
     padding: 0.5em 0.5em 0.3em;
     display: block;
@@ -1166,7 +1168,7 @@ body {
 
 .projectBlock-title {
     border-top: solid 5px #222;
-    padding-left: 1em;
+    // padding-left: 1em;
     margin: 0;
 }
 
@@ -1183,6 +1185,7 @@ body {
     font-size: 1.2em;
     display: block;
     padding: 0.5em 1em;
+    margin-bottom: 1em;
 }
 
 .projectBlock .bulletList-item {
@@ -1196,7 +1199,7 @@ body {
     position: absolute;
     top: 0;
     left: 100%;
-    width: 60%;
+    width: 50%;
     height: 100%;
     border-bottom: solid 1px #eee;
 }
@@ -1219,7 +1222,7 @@ body {
     border-left: solid 1px #eee;
     padding-left: 2%;
 }
-@media(max-width:1023px) {
+@media(max-width:1024px) {
     .pageHeader .logoBlock {
         width: 100%;
         display: block;
@@ -1287,5 +1290,6 @@ body {
 
     .projectBlock-link {
         font-size: 1.1em;
+        margin: 0;
     }
 }

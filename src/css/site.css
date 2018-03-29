@@ -826,7 +826,7 @@ body {
 
 .footer {
   padding: 0 0 2em;
-  font-size: 0.8em;
+  font-size: 0.6em;
   text-align: center;
   color: #999; }
 
@@ -836,7 +836,8 @@ body {
 
 .linkNav-link {
   display: block;
-  padding: 2px 5px;
+  font-size: 0.8em;
+  padding: 0.4em 0.4em 0.3em;
   margin: 2px;
   color: #888 !important;
   -webkit-border-radius: 3px;
@@ -913,13 +914,14 @@ body {
 
 .notes-title {
   text-transform: uppercase;
-  font-size: 1em;
+  font-size: 0.8em;
   line-height: 1em;
   display: block;
   color: #aaa;
   margin-bottom: 0; }
 
 .notes-lineItem {
+  font-size: 1.1em;
   border-bottom: solid 1px #ccc;
   padding: 0.5em 0.5em 0.3em;
   display: block; }
@@ -932,7 +934,6 @@ body {
 
 .projectBlock-title {
   border-top: solid 5px #222;
-  padding-left: 1em;
   margin: 0; }
 
 .projectBlock-titleAlt {
@@ -946,7 +947,8 @@ body {
   text-align: center;
   font-size: 1.2em;
   display: block;
-  padding: 0.5em 1em; }
+  padding: 0.5em 1em;
+  margin-bottom: 1em; }
 
 .projectBlock .bulletList-item {
   font-style: italic;
@@ -958,7 +960,7 @@ body {
   position: absolute;
   top: 0;
   left: 100%;
-  width: 60%;
+  width: 50%;
   height: 100%;
   border-bottom: solid 1px #eee; }
 
@@ -978,7 +980,7 @@ body {
   border-left: solid 1px #eee;
   padding-left: 2%; }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .pageHeader .logoBlock {
     width: 100%;
     display: block; }
@@ -1021,7 +1023,11 @@ body {
   .projectBlock .notes-lineItem + .notes-lineItem {
     margin-left: 5px; }
   .projectBlock-link {
-    font-size: 1.1em; } }
+    font-size: 1.1em;
+    margin: 0; } }
+
+body {
+  font-size: 125%; }
 
 #v3 .hashlink:before {
   content: '#';
@@ -1087,8 +1093,11 @@ abbr {
   display: inline-block;
   margin: 0; }
 
-.linkNav-link {
+.sidebar .linkNav-link {
   font-size: 1em; }
+
+.sidebar .linkNav-title {
+  line-height: 2em; }
 
 .pageHeader .linkNav-link {
   border: solid 1px #e1e1e1; }
@@ -1096,7 +1105,6 @@ abbr {
 .projectBlock {
   border-radius: 0.3em;
   border-top: dotted 1px #aaa;
-  min-width: 25em;
   max-width: 100%; }
 
 .projectBlock .notes-lineItem {
@@ -1137,17 +1145,29 @@ abbr {
 .notes-title {
   margin-bottom: 1em; }
 
-#ds-org-rankings-grid .icon,
-#shredlove .icon {
+#ds-org-rankings-grid .icon {
   position: relative;
   top: -0.2em; }
 
-@media (max-width: 1023px) {
+#shredlove .icon {
+  position: relative;
+  top: -0.1em;
+  width: 2.6em; }
+
+#danny .icon, #ben .icon,
+#don .icon, #rob .icon,
+#shredlove .icon, #trent .icon {
+  margin-top: -0.6em; }
+
+@media (max-width: 1024px) {
   .pageHeader .logoBlock {
     border-bottom: dotted 1px #ddd; }
-  .pageHeader .blockNav, .pageHeader .linkNav {
+  .pageHeader .blockNav {
     border-top: 0;
-    width: 50%; }
+    width: 46%; }
+  .pageHeader .linkNav {
+    border-top: 0;
+    width: 37%; }
   .pageHeader .blockNav-link {
     display: block;
     border: solid 1px transparent;
@@ -1158,11 +1178,19 @@ abbr {
     border-right: 0;
     border-radius: 0; }
   .projectBlock-info .notes {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+  .projectBlock-title .icon {
+    margin-top: -0.8em; }
+  #ds-org-rankings-grid .icon {
+    top: -0.1em; }
+  #danny .icon, #ben .icon,
+  #don .icon, #rob .icon,
+  #shredlove .icon, #trent .icon {
+    margin-top: -0.8em; } }
 
 @media (max-width: 590px) {
   .pageHeader .blockNav, .pageHeader .linkNav {
-    width: auto;
+    width: 90%;
     border-right: 0;
     margin: 0;
     padding: 1em; }
@@ -1178,12 +1206,17 @@ abbr {
     padding-bottom: 0.5em;
     font-weight: bold; }
   .pageHeader .blockNav-link {
-    text-align: left; }
-  .projectBlock-title .icon {
-    margin-top: -0.7em; } }
+    text-align: left; } }
+
+.contentMain .sidebar {
+  font-size: 80%; }
+
+.contentMain .content {
+  font-size: 70%; }
 
 .resume {
-  padding: 2em 0; }
+  padding: 2em 0;
+  font-size: 80%; }
 
 .resume-header {
   display: flex;
@@ -1212,7 +1245,7 @@ abbr {
   display: flex;
   justify-content: space-around; }
 
-.notes-lineItem {
+.resume .notes-lineItem {
   font-size: 1.1em; }
 
 .resume-profile .notes-lineItem {
@@ -1294,19 +1327,11 @@ abbr {
   color: lightslategrey; }
 
 @media screen and (max-width: 1260px) {
-  .wrapper {
-    width: 90%;
-    min-width: 1122px;
-    border-left-width: 3em;
-    border-right-width: 3em;
-    box-sizing: border-box; }
-  .notes-lineItem {
+  .resume .notes-lineItem {
     line-height: 1.1em;
     padding: 0.5em 0.5em 0.3em; } }
 
 @media print {
-  body {
-    font-size: 75%; }
   .print-hidden {
     display: none; }
   .wrapper {
@@ -1314,7 +1339,8 @@ abbr {
     margin: 0;
     border: solid 1px white; }
   .resume {
-    padding: 2em 0 0 0; }
+    padding: 2em 0 0 0;
+    font-size: 60%; }
   .notes {
     padding: 0; }
   .resume-profile .notes-lineItem {
@@ -1328,4 +1354,5 @@ abbr {
   .resume-skills {
     font-size: 4.4em; }
   .resume__footer {
-    margin-bottom: 0; } }
+    margin-bottom: 0;
+    line-height: 1.2em; } }

@@ -1,5 +1,6 @@
 .resume {
   padding: 2em 0;
+  font-size: 80%;
 }
 
 .resume-header {
@@ -36,7 +37,7 @@
   justify-content: space-around;
 }
 
-.notes-lineItem {
+.resume .notes-lineItem {
   font-size: 1.1em;
 }
 
@@ -133,24 +134,24 @@
 
 
 @media screen and (max-width: 1260px) {
-  .wrapper {
-    width: 90%;
-    min-width: 1122px;
-    border-left-width: 3em;
-    border-right-width: 3em;
-    box-sizing: border-box;
-  }
+  // .wrapper {
+  //   width: 90%;
+  //   min-width: 1122px;
+  //   border-left-width: 3em;
+  //   border-right-width: 3em;
+  //   box-sizing: border-box;
+  // }
 
-  .notes-lineItem {
+  .resume .notes-lineItem {
     line-height: 1.1em;
     padding: 0.5em 0.5em 0.3em;
   }
 }
 
 @media print {
-  body {
-    font-size: 75%;
-  }
+  // body {
+  //   font-size: 75%;
+  // }
   .print-hidden {
     display: none;
   }
@@ -161,6 +162,7 @@
   }
   .resume {
     padding: 2em 0 0 0;
+    font-size: 60%;
   }
   .hBar {
 
@@ -185,5 +187,6 @@
   }
   .resume__footer {
     margin-bottom: 0;
+    line-height: 1.2em;
   }
 }

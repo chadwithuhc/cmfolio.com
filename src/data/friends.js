@@ -56,7 +56,7 @@ export default {
       'id': 'rob',
       'icon': 'r.',
       'name': 'r.cavallo',
-      'type': 'Photographer / Retoucher',
+      'type': 'Photo Retoucher',
       'tech': ['Photography', 'Photo Retouching'],
       'desc': 'Rob is a talented photographer who doesn\'t apply his skills. Instead he fixes other peoples work.',
       'descArray': [

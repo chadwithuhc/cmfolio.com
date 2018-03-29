@@ -1,5 +1,6 @@
 .resume {
-  padding: 2em 0; }
+  padding: 2em 0;
+  font-size: 80%; }
 
 .resume-header {
   display: flex;
@@ -28,7 +29,7 @@
   display: flex;
   justify-content: space-around; }
 
-.notes-lineItem {
+.resume .notes-lineItem {
   font-size: 1.1em; }
 
 .resume-profile .notes-lineItem {
@@ -110,19 +111,11 @@
   color: lightslategrey; }
 
 @media screen and (max-width: 1260px) {
-  .wrapper {
-    width: 90%;
-    min-width: 1122px;
-    border-left-width: 3em;
-    border-right-width: 3em;
-    box-sizing: border-box; }
-  .notes-lineItem {
+  .resume .notes-lineItem {
     line-height: 1.1em;
     padding: 0.5em 0.5em 0.3em; } }
 
 @media print {
-  body {
-    font-size: 75%; }
   .print-hidden {
     display: none; }
   .wrapper {
@@ -130,7 +123,8 @@
     margin: 0;
     border: solid 1px white; }
   .resume {
-    padding: 2em 0 0 0; }
+    padding: 2em 0 0 0;
+    font-size: 60%; }
   .notes {
     padding: 0; }
   .resume-profile .notes-lineItem {
@@ -144,4 +138,5 @@
   .resume-skills {
     font-size: 4.4em; }
   .resume__footer {
-    margin-bottom: 0; } }
+    margin-bottom: 0;
+    line-height: 1.2em; } }

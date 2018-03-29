@@ -73,8 +73,7 @@ export default {
         'Responsive',
         'BEM CSS',
         'JavaScript-free',
-        'CSS Animations',
-        'Ruby on Rails integration'
+        'CSS Animations'
       ],
       'desc': 'Dropdown navigation for DS.org website. Responsive for various platforms.',
       'descArray': [

@@ -8,7 +8,7 @@ export default {
     email: `chad@cmfolio.com`
   },
   professional_profile: [
-    `Lead JavaScript & Front-end Web Developer with ${(new Date()).getFullYear() - 2008}+ years in production`,
+    `Lead JavaScript & Front-end Web Dev with ${(new Date()).getFullYear() - 2008}+ years in production environments`,
     `Driven by crafting component-based applications with user-focused interfaces`,
     `Looking to collaborate and build the best productivity software in the world`,
     `My ideal team is smart, fun, supportive, humble, and remote`
