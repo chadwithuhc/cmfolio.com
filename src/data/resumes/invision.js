@@ -2,13 +2,13 @@ export default {
   name: 'resume',
   companyId: `invision`,
   companyName: `InVision`,
-  position: `Senior Software Engineer`,
+  position: `Lead Software Engineer`,
   contact: {
     name: `Chad Drummond`,
     email: `chad@cmfolio.com`
   },
   professional_profile: [
-    `Sr JavaScript & Software Engineer with ${(new Date()).getFullYear() - 2008}+ years in production environments`,
+    `Lead JavaScript & Software Engineer with ${(new Date()).getFullYear() - 2008}+ years in production environments`,
     `Driven by crafting component-based applications with user-focused interfaces`,
     `Looking to collaborate and build software for best creatives in the world`,
     `My ideal team is smart, fun, supportive, humble, and remote`
@@ -33,7 +33,6 @@ export default {
     `devicon-laravel-plain-wordmark`,
     // `devicon-trello-plain`,
     // `devicon-slack-plain`,
-    // `HTML5`, `CSS3`, `JavaScript / ES6`, `ReactJS`, `AngularJS`, `BackboneJS`, 'NodeJS', 'PHP / Laravel'
   ],
   experiences: [
     {
