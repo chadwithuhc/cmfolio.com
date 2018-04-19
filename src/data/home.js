@@ -12,8 +12,10 @@ export default {
     '🕯 Minimizing'
   ],
   currently_i_am_learning: [
+    `🦅 FeathersJS for rapid prototyping`,
+    `🔭 VueJS with CJ from <a href="https://coding.garden" target="_blank" rel="noopener noreferrer">CodingGarden</a>`,
     `🎹 Piano`,
-    `🎬 Video Directing & Editing <small><em>(again)</em></small>`
+    `🎬 Video Directing & Editing <small><em>(updating skillz)</em></small>`
   ],
   recently_i_updated: [
     `📔 Terms / Definitions API <a href="https://terms.galvanize.network/" target="blank" rel="noreferrer noopener">&raquo;&raquo;</a>`,
