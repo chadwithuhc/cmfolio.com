@@ -13,13 +13,13 @@ export default {
   ],
   currently_i_am_learning: [
     `🦅 FeathersJS for rapid prototyping`,
-    `🔭 VueJS with CJ from <a href="https://coding.garden" target="_blank" rel="noopener noreferrer">CodingGarden</a>`,
+    `🔭 VueJS with CJ from <a href="https://coding.garden" target="_blank" rel="noopener noreferrer">Coding Garden</a>`,
     `🎹 Piano`,
-    `🎬 Video Directing & Editing <small><em>(updating skillz)</em></small>`
+    `🎬 Filmmaking`
   ],
   recently_i_updated: [
+    `🍻 Pair Programming on Everybody Writes &raquo; <a href="https://www.youtube.com/watch?v=O5A1GAWBV8s" target="blank" rel="noreferrer noopener">Part 1</a> && <a href="https://www.youtube.com/watch?v=cfvSnFYU7sY" target="blank" rel="noreferrer noopener">Part 2</a>`,
     `📔 Terms / Definitions API <a href="https://terms.galvanize.network/" target="blank" rel="noreferrer noopener">&raquo;&raquo;</a>`,
-    `🍻 Pair Programming on Everybody Writes <a href="https://www.youtube.com/watch?v=O5A1GAWBV8s" target="blank" rel="noreferrer noopener">&raquo;&raquo;</a>`,
     `🗜 Prototypes Playground <a href="https://chadwithuhc.github.io/prototypes/" target="blank" rel="noreferrer noopener">&raquo;&raquo;</a>`,
     `👾 Public Faces, 🤤 Chill Spots, 🌇 Stadium Sunsets <a href="/photo-video/">&raquo;&raquo;</a>`,
     `✏️ Everybody Writes Prototype <a href="/web/everybody-writes">&raquo;&raquo;</a>`,
