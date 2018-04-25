@@ -5,6 +5,7 @@ import invision from './invision'
 import knack from './knack'
 import articulate from './articulate'
 import layer3tv from './layer3tv'
+import stickermule from './stickermule'
 
 export default {
   // duckduckgo,
@@ -13,5 +14,6 @@ export default {
   invision,
   knack,
   articulate,
-  layer3tv
+  layer3tv,
+  stickermule
 }
