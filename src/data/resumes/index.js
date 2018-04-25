@@ -4,6 +4,7 @@ import oracle from './oracle'
 import invision from './invision'
 import knack from './knack'
 import articulate from './articulate'
+import layer3tv from './layer3tv'
 
 export default {
   // duckduckgo,
@@ -11,5 +12,6 @@ export default {
   oracle,
   invision,
   knack,
-  articulate
+  articulate,
+  layer3tv
 }
