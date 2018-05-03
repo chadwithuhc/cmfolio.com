@@ -6,6 +6,7 @@ import knack from './knack'
 import articulate from './articulate'
 import layer3tv from './layer3tv'
 import stickermule from './stickermule'
+import schoolrunner from './schoolrunner'
 
 export default {
   // duckduckgo,
@@ -15,5 +16,6 @@ export default {
   knack,
   articulate,
   layer3tv,
-  stickermule
+  stickermule,
+  schoolrunner
 }
