@@ -8,6 +8,25 @@ export default {
   ],
   'projects': [
     {
+      'id': 'dev-terms',
+      'icon': '🤓',
+      'name': 'Dev Terms',
+      'type': 'Application',
+      'tech': [
+        'RESTful API',
+        'ReactJS',
+        'PostgreSQL',
+        'OSS'
+      ],
+      'desc': 'A collection of developer terms, topics, questions and definitions for junior developers',
+      'descArray': [
+        'A collection of developer terms, topics, questions',
+        'and definitions for junior developers'
+      ],
+      'link': 'https://terms.galvanize.network',
+      'link_desc': 'Learn something new &raquo;'
+    },
+    {
       'id': 'everybody-writes',
       'icon': '✏️',
       'name': 'Real Time Classroom Board',
@@ -24,7 +43,27 @@ export default {
         'featuring various editor types'
       ],
       'link': 'https://github.com/chadwithuhc/everybody-writes',
-      'link_desc': 'Read the code &raquo;'
+      'link_desc': 'Peruse le code &raquo;'
+    },
+    {
+      'id': 'lp',
+      'icon': '📓',
+      'name': 'Digital Lesson Planner',
+      'type': 'Application',
+      'tech': [
+        'JavaScript',
+        'Components',
+        'ReactJS',
+        'Firebase',
+        'OSS'
+      ],
+      'desc': 'A digital lesson planner supporting objectives and real-time CFUs from students',
+      'descArray': [
+        'A digital lesson planner supporting objectives',
+        'and real-time CFUs from students'
+      ],
+      'link': 'https://github.com/gshrike/lp',
+      'link_desc': 'Graze the code &raquo;'
     },
     {
       'id': 'ds-org-data-center',

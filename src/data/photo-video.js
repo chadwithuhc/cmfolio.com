@@ -17,7 +17,7 @@ export default {
         'All things Colorado; All the time'
       ],
       'link': 'https://www.instagram.com/jfdenver/',
-      'link_desc': 'View on Instagram &raquo;'
+      'link_desc': 'Follow on Instagram &raquo;'
     },
     {
       'id': 'stadium-sunsets',
@@ -61,20 +61,6 @@ export default {
       'link_desc': 'View on Flickr &raquo;'
     },
     {
-      'id': 'must-be-nice',
-      'icon': '📼',
-      'name': 'Must Be Nice',
-      'type': 'Video, Skateboarding',
-      'tech': ['Videography', 'Director', 'Editor'],
-      'desc': `Cypress, CA's finest skateboarders`,
-      'descArray': [
-        `Cypress, CA's finest skateboarders, the shredlove crew,`,
-        `in a really long video.`
-      ],
-      'link': 'https://vimeo.com/album/154707',
-      'link_desc': 'View on Vimeo &raquo;'
-    },
-    {
       'id': 'm-2011',
       'icon': '📼',
       'name': 'm | 2011',
@@ -85,7 +71,7 @@ export default {
         `A montage of skateboard footage shot in 2011`
       ],
       'link': 'https://vimeo.com/53292840',
-      'link_desc': 'View on Vimeo &raquo;'
+      'link_desc': 'Scope it on Vimeo &raquo;'
     },
     {
       'id': 'm-2010',
@@ -98,7 +84,21 @@ export default {
         `A montage of skateboard footage shot in 2010`
       ],
       'link': 'https://vimeo.com/19078240',
-      'link_desc': 'View on Vimeo &raquo;'
+      'link_desc': 'Peek on Vimeo &raquo;'
+    },
+    {
+      'id': 'must-be-nice',
+      'icon': '📼',
+      'name': 'must be nice',
+      'type': 'Video, Skateboarding',
+      'tech': ['Videography', 'Director', 'Editor'],
+      'desc': `Cypress, CA's finest skateboarders`,
+      'descArray': [
+        `Cypress, CA's finest skateboarders, the shredlove crew,`,
+        `in a really long video.`
+      ],
+      'link': 'https://vimeo.com/album/154707',
+      'link_desc': 'Kick back and watch on Vimeo &raquo;'
     }
   ]
 }
