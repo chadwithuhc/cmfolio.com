@@ -18,11 +18,11 @@ export default {
     `🎬 Filmmaking`
   ],
   recently_i_updated: [
+    `🥋 Leveled up to 5 kyu (92nd percentile) on CodeWars <a href="https://www.codewars.com/users/chadwithuhc" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
     `📓 Lesson Planner <a href="https://gshrike.github.io/lp/build/lessons/git-and-github/-L84vgtCB4XdKmUyu4UY/preview" target="_blank">&raquo;&raquo;</a>`,
     `🍻 Pair Programming on Everybody Writes &raquo; <a href="https://www.youtube.com/watch?v=O5A1GAWBV8s" target="blank" rel="noreferrer noopener">Part 1</a> && <a href="https://www.youtube.com/watch?v=cfvSnFYU7sY" target="blank" rel="noreferrer noopener">Part 2</a>`,
     `🤓 Dev Terms <a href="https://terms.galvanize.network/" target="blank" rel="noreferrer noopener">&raquo;&raquo;</a>`,
     `🗜 Prototypes Playground <a href="https://chadwithuhc.github.io/prototypes/" target="blank" rel="noreferrer noopener">&raquo;&raquo;</a>`,
-    `👾 Public Faces, 🤤 Chill Spots, 🌇 Stadium Sunsets <a href="/photo-video/">&raquo;&raquo;</a>`,
     `✏️ Everybody Writes Prototype <a href="https://everybody-writes.herokuapp.com" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
   ],
   lists: [

@@ -4,7 +4,8 @@ export default {
   intro: [
     `🎈 Front End UI/<abbr title="This means I implement an experience">UX</abbr> Engineer, Creative Developer, <a href="https://chadwithuhc.github.io/prototypes/" target="_blank">Prototyper</a>`,
     `Web Development Immersive Instructor 🍎 at <a href="https://www.galvanize.com" target="_blank">Galvanize</a> in Denver, CO`,
-    `Open Source code and projects on <a href="https://github.com/chadwithuhc" target="_blank">Github</a>`
+    `Open Source code and projects on <a href="https://github.com/chadwithuhc" target="_blank">Github</a>`,
+    `5 kyu (92nd percentile) ranking on <a href="https://www.codewars.com/users/chadwithuhc" target="_blank" rel="noopener noreferrer">CodeWars</a>`
   ],
   'projects': [
     {
@@ -16,7 +17,7 @@ export default {
         'RESTful API',
         'ReactJS',
         'PostgreSQL',
-        'OSS'
+        'Open Source'
       ],
       'desc': 'A collection of developer terms, topics, questions and definitions for junior developers',
       'descArray': [
@@ -35,7 +36,7 @@ export default {
         'JavaScript',
         'ES6 Classes',
         'Socket.io',
-        'OSS'
+        'Open Source'
       ],
       'desc': 'A real-time classroom feedback tool in your browser, featuring various editor types',
       'descArray': [
@@ -55,7 +56,7 @@ export default {
         'Components',
         'ReactJS',
         'Firebase',
-        'OSS'
+        'Open Source'
       ],
       'desc': 'A digital lesson planner supporting objectives and real-time CFUs from students',
       'descArray': [
@@ -206,7 +207,8 @@ export default {
       'tech': [
         'JavaScript',
         'jQuery',
-        'Extensible'
+        'Extensible',
+        'Open Source'
       ],
       'desc': 'A JavaScript banner rotator built on jQuery flexible enough for carousels, galleries, wizards, etc.',
       'descArray': [
