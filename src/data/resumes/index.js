@@ -7,6 +7,7 @@ import articulate from './articulate'
 import layer3tv from './layer3tv'
 import stickermule from './stickermule'
 import schoolrunner from './schoolrunner'
+import thinkful from './thinkful'
 
 export default {
   // duckduckgo,
@@ -17,5 +18,6 @@ export default {
   articulate,
   layer3tv,
   stickermule,
-  schoolrunner
+  schoolrunner,
+  thinkful
 }
