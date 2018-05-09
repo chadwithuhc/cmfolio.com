@@ -5,7 +5,7 @@ export default {
     `🎈 Front End UI/<abbr title="This means I implement an experience">UX</abbr> Engineer, Creative Developer, <a href="https://chadwithuhc.github.io/prototypes/" target="_blank">Prototyper</a>`,
     `Web Development Immersive Instructor 🍎 at <a href="https://www.galvanize.com" target="_blank">Galvanize</a> in Denver, CO`,
     `Open Source code and projects on <a href="https://github.com/chadwithuhc" target="_blank">Github</a>`,
-    `5 kyu (92nd percentile) ranking on <a href="https://www.codewars.com/users/chadwithuhc" target="_blank" rel="noopener noreferrer">CodeWars</a>`
+    `5 kyu (95th percentile) ranking on <a href="https://www.codewars.com/users/chadwithuhc" target="_blank" rel="noopener noreferrer">CodeWars</a>`
   ],
   'projects': [
     {
