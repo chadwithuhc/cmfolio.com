@@ -8,6 +8,7 @@ import layer3tv from './layer3tv'
 import stickermule from './stickermule'
 import schoolrunner from './schoolrunner'
 import thinkful from './thinkful'
+import collage from './collage'
 
 export default {
   // duckduckgo,
@@ -19,5 +20,6 @@ export default {
   layer3tv,
   stickermule,
   schoolrunner,
-  thinkful
+  thinkful,
+  collage
 }
