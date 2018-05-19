@@ -9,6 +9,7 @@ import stickermule from './stickermule'
 import schoolrunner from './schoolrunner'
 import thinkful from './thinkful'
 import collage from './collage'
+import atlassian from './atlassian'
 
 export default {
   // duckduckgo,
@@ -21,5 +22,6 @@ export default {
   stickermule,
   schoolrunner,
   thinkful,
-  collage
+  collage,
+  atlassian
 }

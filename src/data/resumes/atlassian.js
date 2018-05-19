@@ -1,38 +1,38 @@
 export default {
   name: 'resume',
-  companyId: `invision`,
-  companyName: `InVision`,
-  position: `Senior Front End Software Engineer`,
+  companyId: `atlassian`,
+  companyName: `Atlassian`,
+  position: `Senior Front-end Engineer`,
   contact: {
     name: `Chad Drummond`,
     email: `chad@cmfolio.com`
   },
   professional_profile: [
-    `Senior JavaScript & Front End Engineer with ${(new Date()).getFullYear() - 2008}+ years in production environments`,
+    `Senior JavaScript & Front-end Engineer with ${(new Date()).getFullYear() - 2008}+ years in production environments`,
     `Driven by crafting component-based applications with user-focused interfaces`,
-    `Looking to collaborate and build software for best creatives in the world`,
+    `Looking to collaborate and build the best productivity software in the world`,
     `My ideal team is smart, fun, supportive, humble, and remote`
   ],
   skills: [
     `devicon-html5-plain-wordmark`,
     `devicon-css3-plain-wordmark`,
     `devicon-javascript-plain`,
+    `devicon-sass-original`,
     `devicon-react-original`,
     `devicon-angularjs-plain`,
-    `devicon-vuejs-plain`,
-    `devicon-sass-original`,
-    // `devicon-backbonejs-plain-wordmark`,
+    `devicon-backbonejs-plain-wordmark`,
     // `devicon-atom-original`,
     // `devicon-chrome-plain-wordmark`,
     // `devicon-jquery-plain-wordmark`,
-    `devicon-mongodb-plain-wordmark`,
+    // `devicon-mocha-plain`,
     `devicon-postgresql-plain-wordmark`,
+    `devicon-mongodb-plain-wordmark`,
     // `devicon-express-original-wordmark`,
     `devicon-nodejs-plain`,
-    `devicon-mocha-plain`,
     `devicon-laravel-plain-wordmark`,
-    // `devicon-trello-plain`,
+    `devicon-trello-plain`,
     // `devicon-slack-plain`,
+    // `HTML5`, `CSS3`, `JavaScript / ES6`, `ReactJS`, `AngularJS`, `BackboneJS`, 'NodeJS', 'PHP / Laravel'
   ],
   experiences: [
     {
@@ -78,6 +78,6 @@ export default {
         `Multi-device / Mobile-friendly experiences`,
         `Refactoring spaghetti code to configurable plugins`
       ]
-    },
+    }
   ]
 }
