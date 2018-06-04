@@ -63,7 +63,7 @@ export default {
         `Rob is a talented photographer who doesn't apply his skills.`,
         'Instead he fixes other peoples work.'
       ],
-      'link': 'http://rcavallo.com/',
+      'link': 'https://www.rcavallophoto.com/',
       'link_desc': 'View his Work &raquo;'
     },
     {
