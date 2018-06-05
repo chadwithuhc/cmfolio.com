@@ -10,6 +10,7 @@ import schoolrunner from './schoolrunner'
 import thinkful from './thinkful'
 import collage from './collage'
 import atlassian from './atlassian'
+import helpscout from './helpscout'
 
 export default {
   // duckduckgo,
@@ -23,5 +24,6 @@ export default {
   schoolrunner,
   thinkful,
   collage,
-  atlassian
+  atlassian,
+  helpscout
 }
