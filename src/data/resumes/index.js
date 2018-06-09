@@ -11,6 +11,7 @@ import collage from './collage'
 import atlassian from './atlassian'
 import helpscout from './helpscout'
 import github from './github'
+import aetna from './aetna'
 
 export default {
   trello,
@@ -25,5 +26,6 @@ export default {
   collage,
   atlassian,
   helpscout,
-  github
+  github,
+  aetna
 }
