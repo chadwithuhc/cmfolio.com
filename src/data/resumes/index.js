@@ -1,4 +1,3 @@
-// import duckduckgo from './duckduckgo'
 import trello from './trello'
 import oracle from './oracle'
 import invision from './invision'
@@ -11,9 +10,9 @@ import thinkful from './thinkful'
 import collage from './collage'
 import atlassian from './atlassian'
 import helpscout from './helpscout'
+import github from './github'
 
 export default {
-  // duckduckgo,
   trello,
   oracle,
   invision,
@@ -25,5 +24,6 @@ export default {
   thinkful,
   collage,
   atlassian,
-  helpscout
+  helpscout,
+  github
 }
