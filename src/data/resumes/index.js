@@ -13,6 +13,7 @@ import helpscout from './helpscout'
 import github from './github'
 import aetna from './aetna'
 import rh from './rh'
+import dropsource from './dropsource'
 
 export default {
   trello,
@@ -29,5 +30,6 @@ export default {
   helpscout,
   github,
   aetna,
-  rh
+  rh,
+  dropsource
 }
