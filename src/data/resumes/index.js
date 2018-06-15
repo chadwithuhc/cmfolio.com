@@ -12,6 +12,7 @@ import atlassian from './atlassian'
 import helpscout from './helpscout'
 import github from './github'
 import aetna from './aetna'
+import rh from './rh'
 
 export default {
   trello,
@@ -27,5 +28,6 @@ export default {
   atlassian,
   helpscout,
   github,
-  aetna
+  aetna,
+  rh
 }
