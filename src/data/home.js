@@ -7,23 +7,22 @@ export default {
   currently_i_am_working_on: [
     `🤖 Creating a data-driven classroom at Galvanize in Denver, CO`,
     `✏️ Building fancy educational tools: <em>Everybody Writes 2.0</em>, <a href="https://gshrike.github.io/lp/build/lessons/git-and-github/-L84vgtCB4XdKmUyu4UY/preview"><em>(LP) Lesson Planner</em></a>, <a href="https://terms.galvanize.network/" target="blank" rel="noreferrer noopener"><em>Dev Terms</em></a>`,
-    `🎈 Coding for fun: <em>Tracker</em>, <code>this</code> site`,
+    `🎈 Coding for fun: <a href="https://chadwithuhc.github.io/prototypes/" target="blank" rel="noreferrer noopener"><em>Prototypes</em></a>, <code>this</code> site`,
     `🏔 Adventuring around <a rel="noopener noreferrer" href="https://www.instagram.com/jfdenver/" class="hashlink">Colorado</a>`,
     '🕯 Minimizing'
   ],
   currently_i_am_learning: [
+    `🐉 Interactive UIs with VueJS`,
     `🦅 FeathersJS for rapid prototyping`,
-    `🔭 VueJS with CJ from <a href="https://coding.garden" target="_blank" rel="noopener noreferrer">Coding Garden</a>`,
-    `🎹 Piano`,
-    `🎬 Filmmaking`
+    `🎹 Piano`
   ],
   recently_i_updated: [
+    `🎚 Prototype: Heavy Scroller in VueJS <a href="https://chadwithuhc.github.io/prototypes/heavy-scroller/" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
+    `🎭 tattle-tale: a Github App with Probot <a href="https://github.com/chadwithuhc/tattle-tale" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
     `🥋 Leveled up to 5 kyu (95th percentile) on CodeWars <a href="https://www.codewars.com/users/chadwithuhc" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
-    `📓 Lesson Planner <a href="https://gshrike.github.io/lp/build/lessons/git-and-github/-L84vgtCB4XdKmUyu4UY/preview" target="_blank">&raquo;&raquo;</a>`,
-    `🍻 Pair Programming on Everybody Writes &raquo; <a href="https://www.youtube.com/watch?v=O5A1GAWBV8s" target="blank" rel="noreferrer noopener">Part 1</a> && <a href="https://www.youtube.com/watch?v=cfvSnFYU7sY" target="blank" rel="noreferrer noopener">Part 2</a>`,
     `🤓 Dev Terms <a href="https://terms.galvanize.network/" target="blank" rel="noreferrer noopener">&raquo;&raquo;</a>`,
-    `🗜 Prototypes Playground <a href="https://chadwithuhc.github.io/prototypes/" target="blank" rel="noreferrer noopener">&raquo;&raquo;</a>`,
-    `✏️ Everybody Writes Prototype <a href="https://everybody-writes.herokuapp.com" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
+    `📓 Lesson Planner <a href="https://gshrike.github.io/lp/build/lessons/git-and-github/-L84vgtCB4XdKmUyu4UY/preview" target="_blank">&raquo;&raquo;</a>`,
+    `🍻 Pair Programming on Everybody Writes &raquo; <a href="https://www.youtube.com/watch?v=O5A1GAWBV8s" target="blank" rel="noreferrer noopener">Part 1</a> && <a href="https://www.youtube.com/watch?v=cfvSnFYU7sY" target="blank" rel="noreferrer noopener">Part 2</a>`
   ],
   lists: [
     'branding', 'band names', 'rapper names',
