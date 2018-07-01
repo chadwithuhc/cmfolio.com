@@ -74,7 +74,7 @@ function Resume({ site, page }) {
       <p>
         This page was personally designed for <strong>{page.companyName}</strong>
         <br/>
-        Print and view it online at <strong>cmfolio.com/resume/{page.companyId}</strong>
+        Print and view it online at <strong>https://cmfolio.com/resume/{page.companyId}</strong>
       </p>
     </footer>
     </article>
