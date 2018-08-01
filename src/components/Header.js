@@ -13,7 +13,7 @@ function Header({ site, page }) {
     <header className="pageHeader">
     	<nav className="logoBlock">
     		<Link to="/" className="avatar">
-    			<img src="/images/avatar.png" alt="" width="180" height="180" className="no-highlight" /><br/>
+    			<img src="/images/avatar.svg" alt="" width="180" height="180" className="no-highlight" /><br/>
     			<img src="/images/cm-logo.png" alt="cm" className="cm-logo no-highlight" width="30" />
     		</Link>
     	</nav>

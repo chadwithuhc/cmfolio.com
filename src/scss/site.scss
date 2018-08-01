@@ -4,6 +4,14 @@ body {
   font-size: 125%;
 }
 
+.cm-logo {
+  position: relative;
+  top: -0.5em;
+  background: white;
+  border-radius: 100%;
+  padding: 0.3em 1.6em;
+}
+
 #v3 .hashlink:before {
   content: '#';
   color: gray;

@@ -3,7 +3,6 @@ import oracle from './oracle'
 import invision from './invision'
 import knack from './knack'
 import articulate from './articulate'
-import layer3tv from './layer3tv'
 import stickermule from './stickermule'
 import schoolrunner from './schoolrunner'
 import thinkful from './thinkful'
@@ -12,8 +11,6 @@ import atlassian from './atlassian'
 import helpscout from './helpscout'
 import github from './github'
 import aetna from './aetna'
-import rh from './rh'
-import dropsource from './dropsource'
 
 export default {
   trello,
@@ -21,7 +18,6 @@ export default {
   invision,
   knack,
   articulate,
-  layer3tv,
   stickermule,
   schoolrunner,
   thinkful,
@@ -29,7 +25,5 @@ export default {
   atlassian,
   helpscout,
   github,
-  aetna,
-  rh,
-  dropsource
+  aetna
 }
