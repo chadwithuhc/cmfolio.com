@@ -1,20 +1,19 @@
 export default {
   name: 'home',
   intro: [
-    `🦁 Howdy, I'm <a class="hashlink" title="🧀">cheddar</a>; a <a class="hashlink" target="_blank" rel="noopener noreferrer" href="https://denver.gteach.xyz/">mentor</a> by day and <a class="hashlink" target="_blank" rel="noopener noreferrer" href="https://twitter.com/search?l=&q=%23TIL%20from%3Achadwithuhc&src=typd">student</a> all the time`,
-    `💯 I am happy when being <a class="hashlink">creative</a> and working on lots of <a class="hashlink">ideas</a> at once `,
+    `🦁 Howdy, I'm <a class="hashlink" title="🧀">cheddar</a>; a <a class="hashlink">teacher</a> and lifelong <a class="hashlink">student</a>`,
+    `💯 I am happy when being <a class="hashlink">creative</a> and working on lots of <a class="hashlink" href="https://trello.com/b/I55MZ3d3" target="_blank" rel="noopener noreferrer">ideas</a> at once `,
     `🌴 California 🛫 ... 🛬 Denver, CO 🌲`
   ],
   currently_i_am_working_on: [
-    `🚀 Bringing healthcare into the 21st century`,
+    `🔮 Creating reusable web interfaces for all`,
     `🏫 Building fancy open source educational tools ... <a href="https://gshrike.github.io/lp/build/lessons/git-and-github/-L84vgtCB4XdKmUyu4UY/preview"><em>(LP) Lesson Planner</em></a>, <a href="https://terms.galvanize.network/" target="blank" rel="noreferrer noopener"><em>Dev Terms</em></a>`,
-    `🎈 Coding for fun ... <a href="https://chadwithuhc.github.io/prototypes/" target="blank" rel="noreferrer noopener"><em>Prototypes</em></a>, <code>this</code> site`,
-    // `🏔 Adventuring around <a rel="noopener noreferrer" href="https://www.instagram.com/jfdenver/" class="hashlink">Colorado</a>`,
-    // '🕯 Minimizing'
+    `🎈 Coding for fun ... <a href="https://chadwithuhc.github.io/prototypes/" target="blank" rel="noreferrer noopener"><em>Prototypes</em></a>, <code>this</code> site`
   ],
   currently_i_am_learning: [
+    `💗 CSS fluidity for screens of all sizes`,
     `🐉 Interactive UIs with VueJS`,
-    `🦅 FeathersJS for rapid prototyping`,
+    // `🦅 FeathersJS for rapid prototyping`,
     `🎹 Keyboards & More`
   ],
   recently_i_updated: [
