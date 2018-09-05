@@ -1,3 +1,4 @@
+@import url(//fonts.googleapis.com/css?family=Arvo);
 a,
 abbr,
 acronym,
@@ -622,7 +623,7 @@ img.scale-with-grid {
     font-weight: normal;
     font-style: normal;
 }
-@import url(//fonts.googleapis.com/css?family=Arvo);*/
+*/
 a,
 a:link {
   color: goldenrod; }
