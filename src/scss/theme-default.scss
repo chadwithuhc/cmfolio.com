@@ -826,12 +826,18 @@ h6 {
 
 code,
 pre {
-    background: #f9f9f9;
+    // background: #f9f9f9;
     font-family: Courier;
     padding: 2px;
     margin: 0;
     color: #c00;
     white-space: pre-wrap;
+}
+
+code:before,
+code:after {
+  content: '`';
+  font-family: sans-serif;
 }
 
 code span {
@@ -981,7 +987,7 @@ body {
 }
 
 .type {
-    font: normal 1em/1em 'Arvo','Myriad Pro',Arial,sans-serif;
+    font: normal 1em/1em 'Myriad Pro',Arial,sans-serif;
     color: #000;
     vertical-align: -1px;
 }
@@ -997,8 +1003,8 @@ body {
     border-top: solid 3px #222;
 }
 
-.type-bigBold {
-    font: bold 1.4em/20px 'Arvo','Myriad Pro',Arial,sans-serif;
+.type-header {
+    font: normal 1em/20px 'Arvo','Myriad Pro',Arial,sans-serif;
     color: #000;
 }
 

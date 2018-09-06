@@ -1,7 +1,7 @@
 export default {
   name: 'home',
   intro: [
-    `🦁 Howdy, I'm <a class="hashlink" title="🧀">cheddar</a>; a <a class="hashlink">teacher</a> and lifelong <a class="hashlink">student</a>`,
+    `🦁 Howdy, I'm <a class="hashlink" title="🧀">cheddar</a>; a <a class="hashlink">mentor</a> and lifelong <a class="hashlink">learner</a>`,
     `💯 I am happy when being <a class="hashlink">creative</a> and working on lots of <a class="hashlink" href="https://trello.com/b/I55MZ3d3" target="_blank" rel="noopener noreferrer">ideas</a> at once `,
     `🌴 California 🛫 ... 🛬 Denver, CO 🌲`
   ],
@@ -11,10 +11,10 @@ export default {
     `🎈 Coding for fun ... <a href="https://chadwithuhc.github.io/prototypes/" target="blank" rel="noreferrer noopener"><em>Prototypes</em></a>, <code>this</code> site`
   ],
   currently_i_am_learning: [
-    `💗 CSS fluidity for screens of all sizes`,
-    `🐉 Interactive UIs with VueJS`,
-    // `🦅 FeathersJS for rapid prototyping`,
-    `🎹 Keyboards & More`
+    `🏋️ Accessible Web Experiences`,
+    `💗 Scalable Responsive CSS Design`,
+    `🎹 Music w/ Keyboards & Percussion`,
+    `🎪 Illustration & SVG Animation`
   ],
   recently_i_updated: [
     `🤖 Codepen playground <a href="https://codepen.io/chadwithuhc" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,

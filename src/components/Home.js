@@ -32,7 +32,7 @@ function Home({ site, page }) {
     <hr className="hBar" />
     <section className="content contentMain contentLikes">
       <article className="notes">
-        <h1 className="notes-title">Currently, I am learning:</h1>
+        <h1 className="notes-title">Currently, I am mastering:</h1>
         <p className="type">
           {page.currently_i_am_learning.map((line, i) => {
             return (

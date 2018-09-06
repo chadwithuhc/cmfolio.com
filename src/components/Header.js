@@ -21,7 +21,7 @@ function Header({ site, page }) {
         {site.navLinks.map(link => {
           return (
             <li key={link.url} className="blockNav-item">
-        			<Link to={link.url} className="blockNav-link type"><span className="blockNav-title">{link.name}</span> <span className="blockNav-linkSmall">{link.description}</span></Link>
+        			<Link to={link.url} className="blockNav-link type-header"><span className="blockNav-title">{link.name}</span> <span className="blockNav-linkSmall">{link.description}</span></Link>
         		</li>
           )
         })}

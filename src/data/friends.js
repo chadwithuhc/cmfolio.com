@@ -58,13 +58,13 @@ export default {
       'name': 'r.cavallo',
       'type': 'Photo Retoucher',
       'tech': ['Photography', 'Photo Retouching'],
-      'desc': 'Rob is a talented photographer who doesn\'t apply his skills. Instead he fixes other peoples work.',
+      'desc': 'Robin is a talented photographer who doesn\'t apply her skills. Instead she fixes other peoples work.',
       'descArray': [
-        `Rob is a talented photographer who doesn't apply his skills.`,
-        'Instead he fixes other peoples work.'
+        `Robin is a talented photographer who doesn't apply her skills.`,
+        'Instead she fixes other peoples work.'
       ],
       'link': 'https://www.rcavallophoto.com/',
-      'link_desc': 'View his Work &raquo;'
+      'link_desc': 'View her Work &raquo;'
     },
     {
       'id': 'shredlove',
