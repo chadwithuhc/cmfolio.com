@@ -11,7 +11,7 @@ export default {
   ga_account_id: 'UA-5917637-10',
 
   navLinks: [
-    {name: 'Web Development', description: 'Frontend UI/UX Dev, Prototyping', url: '/web/'},
+    {name: 'Web Development', description: 'UI/UX Development, Prototyping', url: '/web/'},
     {name: 'Photo & Video', description: 'Adventures, Action Sports', url: '/photo-video/'},
     {name: 'Talented Friends', description: 'Creatives, Athletes', url: '/friends/'}
   ],

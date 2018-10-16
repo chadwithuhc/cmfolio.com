@@ -1,31 +1,31 @@
 export default {
   'name': 'web',
-  'description': 'welcome to the web portfolio of cm. here you will find web design, web development, front-end, and back-end works.',
+  'description': 'welcome to the web portfolio of cm. here you will find web design, web development, front-end, and back-end projects.',
   intro: [
     `🎈 Front End UI/<abbr title="This means I implement an experience">UX</abbr> Engineer, <a href="https://chadwithuhc.github.io/prototypes/" target="_blank">Prototyper</a>`,
     `Open Source code and projects on <a href="https://github.com/chadwithuhc" target="_blank">Github</a>`,
     `5 kyu (95th percentile) ranking on <a href="https://www.codewars.com/users/chadwithuhc" target="_blank" rel="noopener noreferrer">CodeWars</a>`
   ],
   'projects': [
-    {
-      'id': 'dev-terms',
-      'icon': '🤓',
-      'name': 'Dev Terms',
-      'type': 'Application',
-      'tech': [
-        'RESTful API',
-        'ReactJS',
-        'PostgreSQL',
-        'Open Source'
-      ],
-      'desc': 'A collection of developer terms, topics, questions and definitions for junior developers',
-      'descArray': [
-        'A collection of developer terms, topics, questions',
-        'and definitions for junior developers'
-      ],
-      'link': 'https://terms.galvanize.network',
-      'link_desc': 'Learn something new &raquo;'
-    },
+    // {
+    //   'id': 'dev-terms',
+    //   'icon': '🤓',
+    //   'name': 'Dev Terms',
+    //   'type': 'Application',
+    //   'tech': [
+    //     'RESTful API',
+    //     'ReactJS',
+    //     'PostgreSQL',
+    //     'Open Source'
+    //   ],
+    //   'desc': 'A collection of developer terms, topics, questions and definitions for junior developers',
+    //   'descArray': [
+    //     'A collection of developer terms, topics, questions',
+    //     'and definitions for junior developers'
+    //   ],
+    //   'link': 'https://terms.galvanize.network',
+    //   'link_desc': 'Learn something new &raquo;'
+    // },
     {
       'id': 'everybody-writes',
       'icon': '✏️',
