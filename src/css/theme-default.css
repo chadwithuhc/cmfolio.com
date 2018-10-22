@@ -758,8 +758,7 @@ body {
   margin: 1em auto;
   width: 80%;
   background: #fff;
-  border-left: solid 5vw white;
-  border-right: solid 5vw white; }
+  padding: 0 5vw; }
 
 .sidebar {
   float: left;
@@ -777,8 +776,7 @@ body {
 
 .avatar {
   display: block;
-  padding: 1em;
-  background: #fff; }
+  padding: 1em; }
 
 .type {
   font: normal 1em/1em 'Myriad Pro',Arial,sans-serif;
@@ -816,7 +814,6 @@ body {
   font-size: 3em; }
 
 .content {
-  background: white;
   padding: 1em;
   float: left; }
 
@@ -881,7 +878,6 @@ body {
   display: block;
   float: left;
   padding: 0.5em 1em;
-  background: #fff;
   color: #000;
   text-align: center;
   border: solid 1px transparent;

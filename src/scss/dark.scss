@@ -1,0 +1,82 @@
+$dark: #222;
+$mid: #444;
+$midlight: #999;
+$light: #ddd;
+
+$trans: 1s;
+
+.theme-loaded {
+  transition: background-color $trans, color $trans;
+
+  .type, .blockNav-title, strong,
+  h1, h2, h3, h4, h5, h6,
+  code, pre {
+    transition: color $trans, font-weight $trans;
+  }
+
+  .wrapper, .cm-logo, .projectBlock-title .icon,
+  .projectBlock-sidebox,
+  hr {
+    transition: background-color $trans, border-color $trans;
+  }
+
+  .avatar, .blockNav-link, .content {
+    transition: background-color $trans;
+  }
+
+  .notes-lineItem,
+  .pageHeader .logoBlock, .blockNav-item:not(:last-child) .blockNav-link,
+  .pageHeader .blockNav {
+    transition: border-color $trans;
+  }
+
+  .linkNav-link:hover {
+    transition-duration: 100ms;
+  }
+}
+
+.dark-theme {
+  background-color: $dark;
+  color: $light;
+
+  .type, .blockNav-title, strong,
+  h1, h2, h3, h4, h5, h6 {
+    color: $light;
+  }
+
+  .wrapper, .cm-logo, .projectBlock-title .icon {
+    background-color: $mid;
+    border-color: $mid;
+  }
+
+  .avatar, .blockNav-link, .content {
+    background-color: transparent;
+  }
+
+  .notes-lineItem {
+    border-bottom-color: $midlight;
+  }
+
+  .projectBlock-sidebox {
+    background-color: $dark;
+    border-color: $midlight;
+  }
+
+  code, pre {
+    color: lime;
+    font-weight: bold;
+  }
+
+  hr {
+    border-color: $midlight;
+    background-color: transparent;
+  }
+
+  .pageHeader .logoBlock, .blockNav-item:not(:last-child) .blockNav-link {
+    border-bottom-color: $midlight;
+  }
+  .pageHeader .blockNav {
+    border-left-color: $midlight;
+    border-right-color: $midlight;
+  }
+}

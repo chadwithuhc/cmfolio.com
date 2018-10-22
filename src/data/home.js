@@ -9,7 +9,8 @@ export default {
     `🏋️ Creating Accessible Web Experiences`,
     // `🏫 Building fancy open source educational tools ... <a href="https://gshrike.github.io/lp/build/lessons/git-and-github/-L84vgtCB4XdKmUyu4UY/preview"><em>(LP) Lesson Planner</em></a>, <a href="https://terms.galvanize.network/" target="blank" rel="noreferrer noopener"><em>Dev Terms</em></a>`,
     `🎈 Coding for fun ... <a href="https://chadwithuhc.github.io/prototypes/flickr-api/build/#/postcards" target="blank" rel="noreferrer noopener"><em>Postcards</em></a>, <em>Mastermind</em>`,
-    '🤹 Learning through creativity'
+    '🤹 Learning through creativity',
+    '🍄 Beating Super Mario Land on SNES'
   ],
   currently_i_am_learning: [
     `🎪 Graphic Design w/ Code`,

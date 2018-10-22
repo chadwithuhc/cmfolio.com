@@ -758,8 +758,7 @@ body {
   margin: 1em auto;
   width: 80%;
   background: #fff;
-  border-left: solid 5vw white;
-  border-right: solid 5vw white; }
+  padding: 0 5vw; }
 
 .sidebar {
   float: left;
@@ -777,8 +776,7 @@ body {
 
 .avatar {
   display: block;
-  padding: 1em;
-  background: #fff; }
+  padding: 1em; }
 
 .type {
   font: normal 1em/1em 'Myriad Pro',Arial,sans-serif;
@@ -816,7 +814,6 @@ body {
   font-size: 3em; }
 
 .content {
-  background: white;
   padding: 1em;
   float: left; }
 
@@ -881,7 +878,6 @@ body {
   display: block;
   float: left;
   padding: 0.5em 1em;
-  background: #fff;
   color: #000;
   text-align: center;
   border: solid 1px transparent;
@@ -1227,6 +1223,62 @@ abbr {
 
 .contentMain .content {
   font-size: 70%; }
+
+.light-switch {
+  background: none;
+  border: none;
+  font-size: 4em;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  cursor: pointer; }
+
+.theme-loaded {
+  transition: background-color 1s, color 1s; }
+  .theme-loaded .type, .theme-loaded .blockNav-title, .theme-loaded strong,
+  .theme-loaded h1, .theme-loaded h2, .theme-loaded h3, .theme-loaded h4, .theme-loaded h5, .theme-loaded h6,
+  .theme-loaded code, .theme-loaded pre {
+    transition: color 1s, font-weight 1s; }
+  .theme-loaded .wrapper, .theme-loaded .cm-logo, .theme-loaded .projectBlock-title .icon,
+  .theme-loaded .projectBlock-sidebox,
+  .theme-loaded hr {
+    transition: background-color 1s, border-color 1s; }
+  .theme-loaded .avatar, .theme-loaded .blockNav-link, .theme-loaded .content {
+    transition: background-color 1s; }
+  .theme-loaded .notes-lineItem,
+  .theme-loaded .pageHeader .logoBlock, .theme-loaded .blockNav-item:not(:last-child) .blockNav-link,
+  .theme-loaded .pageHeader .blockNav {
+    transition: border-color 1s; }
+  .theme-loaded .linkNav-link:hover {
+    transition-duration: 100ms; }
+
+.dark-theme {
+  background-color: #222;
+  color: #ddd; }
+  .dark-theme .type, .dark-theme .blockNav-title, .dark-theme strong,
+  .dark-theme h1, .dark-theme h2, .dark-theme h3, .dark-theme h4, .dark-theme h5, .dark-theme h6 {
+    color: #ddd; }
+  .dark-theme .wrapper, .dark-theme .cm-logo, .dark-theme .projectBlock-title .icon {
+    background-color: #444;
+    border-color: #444; }
+  .dark-theme .avatar, .dark-theme .blockNav-link, .dark-theme .content {
+    background-color: transparent; }
+  .dark-theme .notes-lineItem {
+    border-bottom-color: #999; }
+  .dark-theme .projectBlock-sidebox {
+    background-color: #222;
+    border-color: #999; }
+  .dark-theme code, .dark-theme pre {
+    color: lime;
+    font-weight: bold; }
+  .dark-theme hr {
+    border-color: #999;
+    background-color: transparent; }
+  .dark-theme .pageHeader .logoBlock, .dark-theme .blockNav-item:not(:last-child) .blockNav-link {
+    border-bottom-color: #999; }
+  .dark-theme .pageHeader .blockNav {
+    border-left-color: #999;
+    border-right-color: #999; }
 
 .resume {
   padding: 2em 0;
