@@ -7,7 +7,6 @@ export default {
   ],
   currently_i_am_working_on: [
     `🏋️ Creating Accessible Web Experiences`,
-    // `🏫 Building fancy open source educational tools ... <a href="https://gshrike.github.io/lp/build/lessons/git-and-github/-L84vgtCB4XdKmUyu4UY/preview"><em>(LP) Lesson Planner</em></a>, <a href="https://terms.galvanize.network/" target="blank" rel="noreferrer noopener"><em>Dev Terms</em></a>`,
     `🎈 Coding for fun ... <a href="https://chadwithuhc.github.io/prototypes/flickr-api/build/#/postcards" target="blank" rel="noreferrer noopener"><em>Postcards</em></a>, <em>Mastermind</em>`,
     '🤹 Learning through creativity',
     '🍄 Beating Super Mario Land on SNES'
@@ -18,6 +17,7 @@ export default {
     `🎹 Keyboards & Percussion`
   ],
   recently_i_updated: [
+    `⏳ UI/UX Concepts: Timeline <a href="https://codepen.io/chadwithuhc/pen/pQRMgO" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
     `🖼 UI/UX Concepts: Photographic Layouts <a href="https://chadwithuhc.github.io/prototypes/flickr-api/" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
     `🎚 UI/UX Concepts: T-shirt sizes & Heavy Scroller <a href="https://chadwithuhc.github.io/prototypes/" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
     `🍻 Pair Programming on Everybody Writes 2.0 &raquo; <a href="https://www.youtube.com/watch?v=O5A1GAWBV8s" target="blank" rel="noreferrer noopener">Part 1</a> && <a href="https://www.youtube.com/watch?v=cfvSnFYU7sY" target="blank" rel="noreferrer noopener">Part 2</a>`,
