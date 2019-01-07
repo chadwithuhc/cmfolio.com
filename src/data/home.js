@@ -6,22 +6,20 @@ export default {
     `🌴 California 🛫 ... 🛬 Denver, CO 🌲`
   ],
   currently_i_am_working_on: [
-    `🏋️ Creating Accessible Web Experiences`,
-    `🎈 Coding for fun ... <a href="https://chadwithuhc.github.io/prototypes/flickr-api/build/#/postcards" target="blank" rel="noreferrer noopener"><em>Postcards</em></a>, <em>Mastermind</em>`,
-    '🤹 Learning through creativity',
-    '🍄 Beating Super Mario Land on SNES'
+    `🏋️ Content Catalog, Accessibility, Testing & Passing Jenkins Builds`,
+    `🎈 Coding for fun ... <a href="https://chadwithuhc.github.io/prototypes/flickr-api/build/#/postcards" target="blank" rel="noreferrer noopener"><em>Postcards</em></a>, <a href="https://codepen.io/chadwithuhc" target="blank" rel="noreferrer noopener"><em>Codepens</em></a>, <em>Mastermind</em>`,
   ],
   currently_i_am_learning: [
-    `🎪 Graphic Design w/ Code`,
-    `☄️ Interactive Design & Animation`,
-    `🎹 Keyboards & Percussion`
+    `🐩 Design with code`,
+    `🎬 Editing & Directing`,
+    `🎹 Keyboards & Percussion`,
   ],
   recently_i_updated: [
+    `⏳ UI/UX Concepts: Multiline wrapping <a href="https://codepen.io/chadwithuhc/pen/bQRrLW" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
     `⏳ UI/UX Concepts: Timeline <a href="https://codepen.io/chadwithuhc/pen/pQRMgO" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
     `🖼 UI/UX Concepts: Photographic Layouts <a href="https://chadwithuhc.github.io/prototypes/flickr-api/" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
     `🎚 UI/UX Concepts: T-shirt sizes & Heavy Scroller <a href="https://chadwithuhc.github.io/prototypes/" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
     `🍻 Pair Programming on Everybody Writes 2.0 &raquo; <a href="https://www.youtube.com/watch?v=O5A1GAWBV8s" target="blank" rel="noreferrer noopener">Part 1</a> && <a href="https://www.youtube.com/watch?v=cfvSnFYU7sY" target="blank" rel="noreferrer noopener">Part 2</a>`,
-    `🤖 Codepen playground <a href="https://codepen.io/chadwithuhc" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
   ],
   lists: [
     'branding', 'band names', 'rapper names',
