@@ -2,7 +2,7 @@ export default {
   name: 'home',
   intro: [
     `🦁 Howdy, I'm <a class="hashlink" title="🧀">cheddar</a>; a <a class="hashlink">developer</a> and <a class="hashlink">mentor</a> with a dash of <a class="hashlink">creative</a>`,
-    `🦚 I work on lots of <a class="hashlink" href="https://trello.com/b/I55MZ3d3" target="_blank" rel="noopener noreferrer">ideas</a> at once, mostly involving <a href="https://github.com/chadwithuhc" target="_blank" rel="noopener noreferrer" class="hashlink">code</a>, <a class="hashlink">design</a>, or <a class="hashlink" title="user experience">ux</a>`,
+    `🥞 I work on lots of <a class="hashlink" href="https://trello.com/b/I55MZ3d3" target="_blank" rel="noopener noreferrer">ideas</a> at once, mostly involving <a href="https://github.com/chadwithuhc" target="_blank" rel="noopener noreferrer" class="hashlink">code</a>, <a class="hashlink">design</a>, or <a class="hashlink" title="user experience">ux</a>`,
     `🌴 California 🛫 ... 🛬 Denver, CO 🌲`
   ],
   currently_i_am_working_on: [
@@ -13,8 +13,9 @@ export default {
   ],
   currently_i_am_learning: [
     `🐩 Graphic Design with <a href="https://www.lynda.com/John-McWade/688518-1.html" target="_blank" rel="noopener noreferrer">John McWade</a>`,
+    `🦄 UI Design with <a href="https://learnui.design" target="_blank" rel="noopener noreferrer">Erik Kennedy</a>`,
     `🛎 UX with <a href="https://www.lynda.com/Chris-Nodder/1401548-1.html" target="_blank" rel="noopener noreferrer">Chris Nodder</a>`,
-    `🎬 Editing & Directing <small><em>(on the side)</em></small>`,
+    `🎬 Cinematography`,
     `🎹 Music <small><em>(when I'm away from my computer)</em></small>`,
   ],
   recently_i_updated: [
