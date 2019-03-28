@@ -11,6 +11,7 @@ import atlassian from './atlassian'
 import helpscout from './helpscout'
 import github from './github'
 import aetna from './aetna'
+import superformula from './superformula'
 
 export default {
   trello,
@@ -25,5 +26,6 @@ export default {
   atlassian,
   helpscout,
   github,
-  aetna
+  aetna,
+  superformula
 }

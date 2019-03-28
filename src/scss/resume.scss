@@ -34,7 +34,11 @@
 
 .resume-header__links {
   display: flex;
-  justify-content: space-around;
+  justify-content: left;
+}
+
+.resume-header__links a {
+  margin-right: 2em;
 }
 
 .resume .notes-lineItem {
@@ -166,10 +170,10 @@
   }
   .resume {
     padding: 2em 0 0 0;
-    font-size: 60%;
+    font-size: 55%;
   }
-  .hBar {
-
+  .hBar.invisible {
+    visibility: hidden;
   }
   .notes {
     padding: 0;
@@ -188,6 +192,8 @@
   }
   .resume-skills {
     font-size: 4.4em;
+    margin-left: auto;
+    margin-right: 0.5em;
   }
   .resume__footer {
     margin-bottom: 0;

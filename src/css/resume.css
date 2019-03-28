@@ -27,7 +27,10 @@
 
 .resume-header__links {
   display: flex;
-  justify-content: space-around; }
+  justify-content: left; }
+
+.resume-header__links a {
+  margin-right: 2em; }
 
 .resume .notes-lineItem {
   font-size: 1.1em; }
@@ -126,7 +129,9 @@
     border: solid 1px white; }
   .resume {
     padding: 2em 0 0 0;
-    font-size: 60%; }
+    font-size: 55%; }
+  .hBar.invisible {
+    visibility: hidden; }
   .notes {
     padding: 0; }
   .resume-profile .notes-lineItem {
@@ -138,7 +143,9 @@
   .resume-header__links a {
     color: black; }
   .resume-skills {
-    font-size: 4.4em; }
+    font-size: 4.4em;
+    margin-left: auto;
+    margin-right: 0.5em; }
   .resume__footer {
     margin-bottom: 0;
     line-height: 1.2em; } }

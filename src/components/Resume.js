@@ -6,18 +6,18 @@ function Resume({ site, page }) {
     <header className="resume-header">
       <section className="resume-header__title">
         <h2 className="resume-header__subtitle">
-          Hi, {page.companyName}! I'm
+          {page.greeting || 'Hi'}, {page.companyName}! I'm
         </h2>
         <h1 className="resume__title">
           <strong>{page.contact.name}</strong> <br/>
           <small>{page.position}</small>
         </h1>
         <nav className="resume-header__links">
-          <a href="https://cmfolio.com/" rel="noreferer noopener"><i className="fa fa-fort-awesome"></i> {page.contact.email}</a>
+          <a href="https://cmfolio.com/" rel="noreferer noopener"><i className="fa fa-fort-awesome"></i> {page.contact.site || page.contact.email}</a>
           <a href="https://linkedin.com/in/chadwithuhc" rel="noopener noreferrer" target="_blank"><i className="fa fa-linkedin"></i> / chadwithuhc</a>
           <a href="https://github.com/chadwithuhc" rel="noopener noreferrer" target="_blank"><i className="fa fa-github"></i> / chadwithuhc</a>
         </nav>
-        <hr className="hBar" />
+        <hr className="hBar invisible" />
         <section className="resume-profile">
           <article className="notes">
             <h1 className="notes-title">Profile:</h1>
