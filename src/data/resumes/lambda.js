@@ -1,49 +1,50 @@
 export default {
   name: 'resume',
-  companyId: `knack`,
-  companyName: `Knack`,
-  position: `Senior Front-end Engineer`,
+  companyId: `lambda`,
+  companyName: `Lambda School`,
+  position: `Web Development Instructor`,
   contact: {
     name: `Chad Drummond`,
-    email: `cmfolio.com`
+    email: `chad@cmfolio.com`
   },
   professional_profile: [
-    `Senior JavaScript & Front-end Engineer with ${(new Date()).getFullYear() - 2008}+ years in production environments`,
-    `Driven by crafting component-based applications with user-focused interfaces`,
-    `Looking to collaborate and build the best productivity software in the world`,
-    `My ideal team is smart, fun, supportive, humble, and remote`
+    `Teacher and mentor interested in mastering and shaping online education`,
+    `Previously a Senior JavaScript & Full-Stack Engineer with ${(new Date()).getFullYear() - 2008}+ years experience`,
+    `Inclusive and empathetic for all types of learners using patience and humility`,
+    `My ideal team is smart, fun, supportive, and has a growth mindset`
   ],
   skills: [
     `devicon-html5-plain-wordmark`,
     `devicon-css3-plain-wordmark`,
     `devicon-javascript-plain`,
-    `devicon-sass-original`,
-    // `devicon-angularjs-plain`,
-    `devicon-jquery-plain-wordmark`,
-    `devicon-backbonejs-plain-wordmark`,
+    // `devicon-jquery-plain-wordmark`,
     `devicon-react-original`,
+    `devicon-angularjs-plain`,
     `devicon-vuejs-plain`,
-    `devicon-mocha-plain`,
-    `devicon-nodejs-plain`,
+    `devicon-sass-original`,
+    // `devicon-backbonejs-plain-wordmark`,
     // `devicon-atom-original`,
     // `devicon-chrome-plain-wordmark`,
-    `devicon-postgresql-plain-wordmark`,
+    `devicon-nodejs-plain`,
+    `devicon-mocha-plain`,
+    `devicon-laravel-plain-wordmark`,
+    `devicon-postgresql-plain`,
     `devicon-mongodb-plain-wordmark`,
     // `devicon-express-original-wordmark`,
-    // `devicon-laravel-plain-wordmark`,
+    // `devicon-github-plain`,
     // `devicon-trello-plain`,
-    // `devicon-slack-plain`
+    // `devicon-slack-plain`,
   ],
   experiences: [
     {
-      company: `Aetna Healthcare`,
-      position: `Senior Front End Engineer`,
-      roles: `A11y Champion, UI/UX Evangelist, Mentor, Unit Testing`,
+      company: `Galvanize + Thinkful`,
+      position: `Web Development Instructor + Career Path Mentor`,
+      roles: `Teacher, Mentor, Scrum Manager, Software Developer`,
       highlights: [
-        `Agile/SAFe practices on an Enterprise application`,
-        `Accessibility (WCAG 2.0) compliant code for all users`,
-        `Code Reviews targeting readability and catching defects`,
-        `Component Library & Design System committee member`
+        `Collaborating with a high-functioning team`,
+        `Pair programming, debugging, and refactoring`,
+        `Autonomy and delegating tasks among skillsets`,
+        `Prototyping internal tools for optimized workflows`
       ]
     },
     {
@@ -68,7 +69,6 @@ export default {
         `Full-stack development with Test Automation`
       ]
     },
-
     {
       company: `Toshiba + LifeLock`,
       position: `Front-end Web Developer + Full-stack Developer`,
@@ -79,6 +79,6 @@ export default {
         `Multi-device / Mobile-friendly experiences`,
         `Refactoring spaghetti code to configurable plugins`
       ]
-    }
+    },
   ]
 }

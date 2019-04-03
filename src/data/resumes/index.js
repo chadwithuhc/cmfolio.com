@@ -12,6 +12,8 @@ import helpscout from './helpscout'
 import github from './github'
 import aetna from './aetna'
 import superformula from './superformula'
+import dockyard from './dockyard'
+import lambda from './lambda'
 
 export default {
   trello,
@@ -27,5 +29,7 @@ export default {
   helpscout,
   github,
   aetna,
-  superformula
+  superformula,
+  dockyard,
+  lambda
 }
