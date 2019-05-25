@@ -4,7 +4,7 @@ export default {
   intro: [
     `🎈 Front End UI/UX Engineer, <a href="https://chadwithuhc.github.io/prototypes/" target="_blank">Prototyper</a>`,
     `Open Source code and projects on <a href="https://github.com/chadwithuhc" target="_blank">Github</a>`,
-    `5 kyu (95th percentile) ranking on <a href="https://www.codewars.com/users/chadwithuhc" target="_blank" rel="noopener noreferrer">CodeWars</a>`
+    `5 kyu (top 15th percentile) ranking on <a href="https://www.codewars.com/users/chadwithuhc" target="_blank" rel="noopener noreferrer">CodeWars</a>`
   ],
   'projects': [
     // {

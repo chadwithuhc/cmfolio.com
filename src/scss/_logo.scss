@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Rhodium+Libre');
+
+$primary: white;
+$fill: #444;
+
+.logo {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-family: 'Rhodium Libre', Graduate, 'Leckerli One', Pattaya, 'Press Start 2P', cursive;
+  // text-transform: uppercase;
+  font-size: 2em;
+  color: $primary;
+  // margin: 1.4em;
+}
+.logo small {
+  display: block;
+  color: teal;
+  font-size: 2.5em;
+}
+
+
+.logo.--icon {
+  background-color: $primary;
+  color: $fill;
+  border-radius: 100%;
+  width: 4em;
+  height: 4em;
+  border: double 0.5em;
+  padding: 0.4em;
+}
+.logo.--icon small {
+  color: $fill;
+}
+.logo.--icon::before {
+  // content: "🦁";
+  font-size: 4em;
+  position: absolute;
+  top: 0.48em;
+  left: 0.1em;
+  color: transparent;
+  text-shadow: 0 0 $fill;
+  -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+.logo.--icon::after {
+  // content: "🕶";
+  font-size: 3em;
+  position: absolute;
+  top: 0.6em;
+  left: 0.3em;
+  color: transparent;
+  text-shadow: 0 0 $primary;
+}

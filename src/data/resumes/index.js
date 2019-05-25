@@ -14,6 +14,7 @@ import aetna from './aetna'
 import superformula from './superformula'
 import dockyard from './dockyard'
 import lambda from './lambda'
+import mlb from './mlb'
 
 export default {
   trello,
@@ -31,5 +32,6 @@ export default {
   aetna,
   superformula,
   dockyard,
-  lambda
+  lambda,
+  mlb
 }

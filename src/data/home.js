@@ -8,17 +8,17 @@ export default {
   currently_i_am_working_on: [
     `🏋️ Accessibility, Testing & Passing Jenkins Builds`,
     `🎈 Coding for fun ... <em title="WIP">Tracker</em>, <em title="WIP">Mastermind</em>, <a href="https://codepen.io/chadwithuhc" target="blank" rel="noreferrer noopener"><em>Codepens</em></a>, <a href="https://chadwithuhc.github.io/prototypes/flickr-api/build/#/postcards" target="blank" rel="noreferrer noopener"><em>Postcards</em></a>`,
-    `🕰 Taking my time and keeping it simple`,
-    // `🕺🏻 Creating an alternative portfolio website`
   ],
   currently_i_am_learning: [
     `🐩 Graphic Design with <a href="https://www.lynda.com/John-McWade/688518-1.html" target="_blank" rel="noopener noreferrer">John McWade</a>`,
     `🦄 UI Design with <a href="https://learnui.design" target="_blank" rel="noopener noreferrer">Erik Kennedy</a>`,
     `🛎 UX with <a href="https://www.lynda.com/Chris-Nodder/1401548-1.html" target="_blank" rel="noopener noreferrer">Chris Nodder</a>`,
     `🎬 Cinematography`,
-    `🎹 Music <small><em>(when I'm away from my computer)</em></small>`,
+    `🎹 Musical Sounds`,
   ],
   recently_i_updated: [
+    `🍕 Meetup Discussion: Jonah & Tommy's mentorship <a href="https://www.meetup.com/meetup-group-KHpdnFBx/events/qplkwqyzhbvb/" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
+    `🍕 Meetup Discussion: Rachel Maher interview <a href="https://www.meetup.com/meetup-group-KHpdnFBx/events/qplkwqyzgbxb/" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
     `📓 Code Sketchpad: cheddar <a href="https://codepen.io/chadwithuhc/pen/PXKzxb" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
     `🍕 Meetup Talk: Intro to Regex in JavaScript <a href="https://www.youtube.com/watch?v=rrKF7na-rFc" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
     `🖼 UI/UX Concepts: Photographic Layouts <a href="https://chadwithuhc.github.io/prototypes/flickr-api/" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
