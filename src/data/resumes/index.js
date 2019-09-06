@@ -15,6 +15,7 @@ import superformula from './superformula'
 import dockyard from './dockyard'
 import lambda from './lambda'
 import mlb from './mlb'
+import forestry from './forestry'
 
 export default {
   trello,
@@ -33,5 +34,6 @@ export default {
   superformula,
   dockyard,
   lambda,
-  mlb
+  mlb,
+  forestry
 }

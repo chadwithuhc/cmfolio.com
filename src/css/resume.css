@@ -82,6 +82,13 @@
   letter-spacing: 0.1em;
   margin-bottom: 0; }
 
+.resume-job__dates {
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 1em;
+  letter-spacing: 0.1em;
+  margin: 0.5em 0; }
+
 .resume-job__header {
   margin-bottom: 1em; }
 

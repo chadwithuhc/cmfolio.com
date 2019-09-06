@@ -46,6 +46,7 @@ function Resume({ site, page }) {
             <div key={i} className="type resume-job">
               <header className="resume-job__header">
                 <h2 className="resume-job__company">{job.company}</h2>
+                {job.dates && <h3 className="resume-job__dates">{job.dates}</h3>}
                 <h3 className="resume-job__position">{job.position}</h3>
               </header>
               <section className="resume-job__roles">
