@@ -2,7 +2,7 @@ export default {
   name: 'resume',
   companyId: `thinkful`,
   companyName: `Thinkful`,
-  position: `Senior Software Engineer`,
+  position: `Web Development Instructor / Mentor`,
   contact: {
     name: `Chad Drummond`,
     email: `chad@cmfolio.com`
@@ -10,7 +10,7 @@ export default {
   professional_profile: [
     `Senior JavaScript & Full-Stack Engineer with ${(new Date()).getFullYear() - 2008}+ years in production environments`,
     `Driven by crafting component-based applications with user-focused interfaces`,
-    `Looking to collaborate and build educational software for the future of e-learning`,
+    `Interested in teaching and mentoring the next generation of Web Developers`,
     `My ideal team is smart, fun, supportive, and remote`
   ],
   skills: [
@@ -36,6 +36,17 @@ export default {
     // `devicon-slack-plain`,
   ],
   experiences: [
+    {
+      company: `Aetna Healthcare`,
+      position: `Senior Front End Engineer`,
+      roles: `A11y Champion, UI/UX Evangelist, Mentor, Unit Testing`,
+      highlights: [
+        `Agile/SAFe practices on an Enterprise application`,
+        `Accessibility (WCAG 2.0) compliant code for all users`,
+        `Code Reviews targeting readability and catching defects`,
+        `Component Library & Design System committee member`
+      ]
+    },
     {
       company: `Galvanize + Thinkful`,
       position: `Web Development Instructor + Career Path Mentor`,
@@ -67,17 +78,6 @@ export default {
         `Managing an application from design to deploy`,
         `Agile/Scrum project management in short iterations`,
         `Full-stack development with Test Automation`
-      ]
-    },
-    {
-      company: `Toshiba + LifeLock`,
-      position: `Front-end Web Developer + Full-stack Developer`,
-      roles: `Web Admin, Site Optimization, QA Testing, Data Analytics`,
-      highlights: [
-        `Optimizing asset loading for high traffic websites`,
-        `Detail oriented QA testing before publishing`,
-        `Multi-device / Mobile-friendly experiences`,
-        `Refactoring spaghetti code to configurable plugins`
       ]
     },
   ]

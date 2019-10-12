@@ -7,7 +7,7 @@ export default {
   ],
   currently_i_am_working_on: [
     `🏋️ Accessibility, Testing & Passing Jenkins Builds`,
-    `🎈 Coding for fun ... <em title="WIP">Tracker</em>, <em title="WIP">Mastermind</em>, <a href="https://codepen.io/chadwithuhc" target="blank" rel="noreferrer noopener"><em>Codepens</em></a>, <a href="https://chadwithuhc.github.io/prototypes/flickr-api/build/#/postcards" target="blank" rel="noreferrer noopener"><em>Postcards</em></a>`,
+    `🎈 Coding for fun ... <a href="https://dev-terms.firebaseapp.com" target="blank" rel="noreferrer noopener"><em>DevTerms</em></a>, <em title="WIP">Tracker</em>, <em title="WIP">Mastermind</em>`,
   ],
   currently_i_am_learning: [
     `🐩 Graphic Design with <a href="https://www.lynda.com/John-McWade/688518-1.html" target="_blank" rel="noopener noreferrer">John McWade</a>`,
