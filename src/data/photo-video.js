@@ -2,8 +2,8 @@ export default {
   'name': 'photo & video',
   'description': 'Photo & Video work',
   intro: [
-    `Currently enjoying <a class="hashlink">road trips</a> and <a class="hashlink" href="https://chadwithuhc.github.io/prototypes/flickr-api/build/#/collage">adventures</a> exploring Colorado 🗺`,
-    `I grew up <a class="hashlink" href="https://vimeo.com/album/154707/video/9093705" target="_blank">skateboarding</a> with a <a class="hashlink">video</a> camera in hand and <a class="hashlink">photography</a> in my eyes`
+    `Currently enjoying <a class="hashlink">road trips</a> and <a class="hashlink" href="https://chadwithuhc.github.io/prototypes/flickr-api/build/#/collage" target="blank" rel="noreferrer noopener">adventures</a> exploring Colorado 🗺`,
+    `I grew up <a class="hashlink" href="https://vimeo.com/album/154707/video/9093705" target="_blank">skateboarding</a> with a <a class="hashlink">video</a> camera in hand and <a href="https://www.flickr.com/photos/chadwithuhc/" target="blank" rel="noreferrer noopener" class="hashlink">photography</a> in my eyes`
   ],
   'projects': [
     {
