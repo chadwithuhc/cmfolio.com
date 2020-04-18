@@ -44,27 +44,46 @@ abbr {
   cursor: help;
 }
 
-.pageHeader .blockNav, .pageHeader .linkNav {
-  padding-left: 0;
-  width: 28%;
-  padding: 0 2%;
-  display: inline-block;
-}
 .pageHeader .blockNav {
-  border-right: solid 1px #eee;
+  display: inline-flex;
+  // border-right: solid 1px #eee;
+  padding: 0 2%;
+}
+.pageHeader .linkNav {
+  // width: 28%;
+  display: flex;
+  flex-wrap: wrap;
 }
 .blockNav-item {
   display: block;
 }
 .blockNav-link {
   float: none;
-  text-align: right;
+  text-align: center;
   border: solid 1px transparent;
-  border-bottom-color: #eee;
+  // border-bottom-color: #eee;
 }
-.blockNav-item:last-child .blockNav-link {
-  border-bottom-color: transparent;
+.blockNav-link.is-active {
+  border-bottom-color: black;
+  position: relative;
+  &:after {
+    bottom: 0;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 0, 0, 0);
+    border-bottom-color: #000;
+    border-width: 4px;
+    margin-left: -4px;
+  }
 }
+// .blockNav-item:last-child .blockNav-link {
+//   border-bottom-color: transparent;
+// }
 .blockNav-title {
   float: none;
 }
@@ -72,6 +91,7 @@ abbr {
 .linkNav-item {
   display: inline-block;
   margin: 0;
+  white-space: nowrap;
 }
 .sidebar .linkNav-link {
   font-size: 1em;
@@ -146,22 +166,23 @@ abbr {
   margin-top: -0.6em;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1073px) {
   .pageHeader .logoBlock {
     border-bottom: dotted 1px #ddd;
   }
   .pageHeader .blockNav {
     border-top: 0;
-    width: 46%;
+    // width: 46%;
+    justify-content: center;
   }
   .pageHeader .linkNav {
     border-top: 0;
-    width: 37%;
+    // width: 37%;
   }
   .pageHeader .blockNav-link {
-    display: block;
-    border: solid 1px transparent;
-    border-bottom-color: #eee;
+    // display: block;
+    // border: solid 1px transparent;
+    // border-bottom-color: #eee;
   }
 
   .projectBlock-sidebox {
@@ -192,12 +213,16 @@ abbr {
 }
 
 
-@media (max-width: 590px) {
-  .pageHeader .blockNav, .pageHeader .linkNav {
-    width: 90%;
+@media (max-width: 830px) {
+  .pageHeader .blockNav {
+    // width: 90%;
     border-right: 0;
-    margin: 0;
-    padding: 1em;
+    // margin: 0;
+    // padding: 1em;
+    flex-direction: column;
+  }
+  .pageHeader .linkNav {
+
   }
   .pageHeader .blockNav:before, .pageHeader .linkNav:before {
     // content: 'Projects:';
@@ -213,7 +238,8 @@ abbr {
     font-weight: bold;
   }
   .pageHeader .blockNav-link {
-    text-align: left;
+    // text-align: left;
+    display: inline-block;
   }
 
   // .projectBlock-title .icon {

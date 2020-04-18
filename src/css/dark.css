@@ -1,5 +1,7 @@
 .theme-loaded {
   transition: background-color 1s, color 1s; }
+  .theme-loaded .cm-logo-svg {
+    transition: filter 1s; }
   .theme-loaded .type, .theme-loaded .blockNav-title, .theme-loaded strong,
   .theme-loaded h1, .theme-loaded h2, .theme-loaded h3, .theme-loaded h4, .theme-loaded h5, .theme-loaded h6,
   .theme-loaded code, .theme-loaded pre {
@@ -10,6 +12,8 @@
     transition: background-color 1s, border-color 1s; }
   .theme-loaded .avatar, .theme-loaded .blockNav-link, .theme-loaded .content {
     transition: background-color 1s; }
+  .theme-loaded .blockNav-link:after {
+    transition: border-bottom-color 1s; }
   .theme-loaded .notes-lineItem,
   .theme-loaded .pageHeader .logoBlock, .theme-loaded .blockNav-item:not(:last-child) .blockNav-link,
   .theme-loaded .pageHeader .blockNav {
@@ -20,6 +24,8 @@
 .dark-theme {
   background-color: #222;
   color: #ddd; }
+  .dark-theme .cm-logo-svg {
+    filter: invert(1); }
   .dark-theme .type, .dark-theme .blockNav-title, .dark-theme strong,
   .dark-theme h1, .dark-theme h2, .dark-theme h3, .dark-theme h4, .dark-theme h5, .dark-theme h6 {
     color: #ddd; }
@@ -39,8 +45,12 @@
   .dark-theme hr {
     border-color: #999;
     background-color: transparent; }
-  .dark-theme .pageHeader .logoBlock, .dark-theme .blockNav-item:not(:last-child) .blockNav-link {
+  .dark-theme .pageHeader .logoBlock {
     border-bottom-color: #999; }
   .dark-theme .pageHeader .blockNav {
     border-left-color: #999;
     border-right-color: #999; }
+  .dark-theme .blockNav-link.is-active {
+    border-bottom-color: #999; }
+    .dark-theme .blockNav-link.is-active:after {
+      border-bottom-color: #999; }

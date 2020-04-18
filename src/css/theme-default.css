@@ -855,7 +855,6 @@ body {
 .blockNav {
   padding: 0;
   margin: 0 auto;
-  width: 600px;
   text-align: center; }
 
 .blockNav:hover .blockNav-item {
@@ -868,7 +867,8 @@ body {
   transition: all 0.3s ease;
   list-style: none;
   display: inline-block;
-  margin-right: 0.1em; }
+  margin-right: 0.1em;
+  margin-bottom: 0; }
 
 .blockNav-item:last-child .blockNav-link,
 .blockNav-item:nth-child(2) .blockNav-link {
@@ -966,25 +966,26 @@ body {
   border-bottom: solid 1px #eee; }
 
 .logoBlock {
-  width: 200px;
   margin: 0 auto;
   text-align: center;
   position: relative;
   top: 0;
   vertical-align: bottom; }
 
+.pageHeader {
+  padding: 1em 0; }
+
 .pageHeader .logoBlock {
-  width: 30%;
-  display: inline-block; }
+  display: inline-flex;
+  margin-right: 1em; }
 
 .pageHeader .blockNav {
-  display: inline-block;
-  width: 545px;
-  margin: 2.6em 0 1em;
+  display: inline-flex;
+  margin: 1em 0;
   border-left: solid 1px #eee;
   padding-left: 2%; }
 
-@media (max-width: 1024px) {
+@media (max-width: 1073px) {
   .pageHeader .logoBlock {
     width: 100%;
     display: block; }
@@ -996,8 +997,6 @@ body {
     border-top: solid 1px #eee;
     padding-left: 0;
     padding-top: 1.6em; }
-  .pageHeader .blockNav-link {
-    border: 0; }
   .pageHeader .blockNav-title {
     float: none; }
   .contentMain {

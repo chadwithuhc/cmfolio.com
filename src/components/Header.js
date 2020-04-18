@@ -13,21 +13,19 @@ function Header({ site, page }) {
     <header className="pageHeader">
     	<nav className="logoBlock">
     		<Link to="/" className="avatar">
-          <span class="logo --icon --with-subtext">
-            <small>cm</small>
-          </span>
+          <img className="cm-logo-svg" src="/images/cm-logo.svg" width="100" alt="cm logo" />
     		</Link>
     	</nav>
     	<ul className="blockNav">
         {site.navLinks.map(link => {
           return (
             <li key={link.url} className="blockNav-item">
-        			<Link to={link.url} className="blockNav-link type-header"><span className="blockNav-title">{link.name}</span> <span className="blockNav-linkSmall">{link.description}</span></Link>
+        			<Link to={link.url} className={`blockNav-link type-header ${window.location.pathname === link.url ? 'is-active' : ''}`}><span className="blockNav-title">{link.name}</span> <span className="blockNav-linkSmall">{link.description}</span></Link>
         		</li>
           )
         })}
     	</ul>
-    	<ul className="linkNav">
+    	{/* <ul className="linkNav">
     		{page.projects.map(project => {
           return (
             <li key={project.id} className="linkNav-item">
@@ -35,7 +33,7 @@ function Header({ site, page }) {
         		</li>
           )
         })}
-    	</ul>
+    	</ul> */}
       <hr/>
     </header>
   )

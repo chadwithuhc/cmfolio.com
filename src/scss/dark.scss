@@ -8,6 +8,10 @@ $trans: 1s;
 .theme-loaded {
   transition: background-color $trans, color $trans;
 
+  .cm-logo-svg {
+    transition: filter $trans;
+  }
+
   .type, .blockNav-title, strong,
   h1, h2, h3, h4, h5, h6,
   code, pre {
@@ -22,6 +26,9 @@ $trans: 1s;
 
   .avatar, .blockNav-link, .content {
     transition: background-color $trans;
+  }
+  .blockNav-link:after {
+    transition: border-bottom-color $trans;
   }
 
   .notes-lineItem,
@@ -38,6 +45,10 @@ $trans: 1s;
 .dark-theme {
   background-color: $dark;
   color: $light;
+
+  .cm-logo-svg {
+    filter: invert(1);
+  }
 
   .type, .blockNav-title, strong,
   h1, h2, h3, h4, h5, h6 {
@@ -72,11 +83,17 @@ $trans: 1s;
     background-color: transparent;
   }
 
-  .pageHeader .logoBlock, .blockNav-item:not(:last-child) .blockNav-link {
+  .pageHeader .logoBlock {
     border-bottom-color: $midlight;
   }
   .pageHeader .blockNav {
     border-left-color: $midlight;
     border-right-color: $midlight;
+  }
+  .blockNav-link.is-active {
+    border-bottom-color: $midlight;
+    &:after {
+      border-bottom-color: $midlight;
+    }
   }
 }
