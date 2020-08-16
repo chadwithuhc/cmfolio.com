@@ -55,7 +55,7 @@ function Home({ site, page }) {
         </p>
       </article>
     </section>
-    <Footer />
+    <Footer site={site} page={page} />
     </article>
   )
 }

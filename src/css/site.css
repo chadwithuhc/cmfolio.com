@@ -1076,6 +1076,11 @@ abbr {
   text-decoration: none;
   cursor: help; }
 
+.social-links a {
+  display: inline-block;
+  margin: 0.4rem 0.3rem;
+  font-size: 1.8rem; }
+
 .pageHeader .blockNav {
   display: inline-flex;
   padding: 0 2%; }

@@ -79,7 +79,7 @@ function Project({ site, page, match, history }) {
       		</div>
       	</section>
       </section>
-      <Footer />
+      <Footer site={site} page={page} />
     </article>
   )
 }
