@@ -27,7 +27,7 @@ export default {
   socialLinks: [
     {name: 'Github', icon: 'fa-github', url: 'https://github.com/chadwithuhc'},
     {name: 'Twitter', icon: 'fa-twitter', url: 'https://twitter.com/chadwithuhc'},
-    {name: 'Twitch', icon: 'fa-twitch', url: 'https://twitch.tv/chadwithuhc'},
+    {name: 'Twitch', icon: 'fa-twitch', url: 'https://twitch.tv/ched_dev'},
   ]
 
 }
