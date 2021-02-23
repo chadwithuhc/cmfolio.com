@@ -13,8 +13,8 @@ export default {
   ],
   currently_i_am_learning: [
     `🐽 Typescript, but not because I want to`,
-    `📡 Streaming setups`,
-    `📸 Re-learning Photography`
+    `📡 Producing a Live Stream`,
+    `📸 Learning Landscape Photography`
     // `🐩 Adobe XD for Design and Prototyping`,
     // `🎒 O'Reilly Trainings on DevOps, Software Architecture, Management`,
     // `🌱 Anything <a href="https://coding.garden" target="_blank" rel="noopener noreferrer">Coding Garden</a> is streaming: Code Katas, NodeJS, VueJS`,
