@@ -16,6 +16,7 @@ import dockyard from './dockyard'
 import lambda from './lambda'
 import mlb from './mlb'
 import forestry from './forestry'
+import melkeydev from './melkeydev'
 
 export default {
   trello,
@@ -35,5 +36,6 @@ export default {
   dockyard,
   lambda,
   mlb,
-  forestry
+  forestry,
+  melkeydev
 }

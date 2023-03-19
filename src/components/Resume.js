@@ -13,9 +13,9 @@ function Resume({ site, page }) {
           <small>{page.position}</small>
         </h1>
         <nav className="resume-header__links">
-          <a href="https://cmfolio.com/" rel="noreferer noopener"><i className="fa fa-fort-awesome"></i> {page.contact.site || page.contact.email}</a>
-          <a href="https://linkedin.com/in/chadwithuhc" rel="noopener noreferrer" target="_blank"><i className="fa fa-linkedin"></i> / chadwithuhc</a>
-          <a href="https://github.com/chadwithuhc" rel="noopener noreferrer" target="_blank"><i className="fa fa-github"></i> / chadwithuhc</a>
+          <a href={page.contact.website} rel="noreferer noopener"><i className="fa fa-fort-awesome"></i> {page.contact.site || page.contact.email}</a>
+          <a href={`https://linkedin.com/in/${page.contact.linkedinUsername}`} rel="noopener noreferrer" target="_blank"><i className="fa fa-linkedin"></i> / {page.contact.linkedinUsername}</a>
+          <a href={`https://github.com/${page.contact.githubUsername}`} rel="noopener noreferrer" target="_blank"><i className="fa fa-github"></i> / {page.contact.githubUsername}</a>
         </nav>
         <hr className="hBar invisible" />
         <section className="resume-profile">
@@ -71,13 +71,15 @@ function Resume({ site, page }) {
       </article>
     </section>
     <hr className="hBar" />
-    <footer className="resume__footer">
-      <p>
-        This page was personally designed for <strong>{page.companyName}</strong>
-        <br/>
-        Print and view it online at <strong>https://cmfolio.com/resume/{page.companyId}</strong>
-      </p>
-    </footer>
+    {page.includeFooter !== false && (
+      <footer className="resume__footer">
+        <p>
+          This page was personally designed for <strong>{page.companyName}</strong>
+          <br/>
+          Print and view it online at <strong>{page.contact.website}/resume/{page.companyId}</strong>
+        </p>
+      </footer>
+    )}
     </article>
   )
 }
