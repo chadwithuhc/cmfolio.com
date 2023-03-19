@@ -3,22 +3,21 @@ export default {
   'description': 'Photo & Video work',
   intro: [
     `Currently enjoying <a class="hashlink">road trips</a> and <a class="hashlink" href="https://chadwithuhc.github.io/prototypes/flickr-api/build/#/collage" target="blank" rel="noreferrer noopener">adventures</a> exploring Colorado 🗺`,
-    `I grew up <a class="hashlink" href="https://vimeo.com/album/154707/video/9093705" target="_blank">skateboarding</a> with a <a class="hashlink">video</a> camera in hand and <a href="https://www.flickr.com/photos/chadwithuhc/" target="blank" rel="noreferrer noopener" class="hashlink">photography</a> in my eyes`
+    `I grew up <a class="hashlink">skateboarding</a> with a <a class="hashlink">video</a> camera in hand and <a class="hashlink">photography</a> in my eyes`
   ],
   'projects': [
     {
-      'id': 'public-faces',
-      'icon': '👾',
-      'name': 'Public Faces',
+      'id': 'jfdenver',
+      'icon': '🌲',
+      'name': 'JFDenver',
       'type': 'Photo Collection',
-      'tech': ['Mobile Photography', 'Collage'],
-      'desc': 'Ever seen something that looks like a face in public? I see it often.',
+      'tech': ['Mobile Photography', 'Gallery', 'Travel'],
+      'desc': 'All things Colorado; All the time',
       'descArray': [
-        'Ever seen something that looks like a face in public?',
-        'I see it often, and now you will too.'
+        'All things Colorado; All the time'
       ],
-      'link': 'https://chadwithuhc.github.io/prototypes/flickr-api/build/#/public-faces',
-      'link_desc': 'View collection &raquo;'
+      'link': 'https://chadwithuhc.github.io/prototypes/flickr-api/build/#/collage',
+      'link_desc': 'Colorado photos by location &raquo;'
     },
     {
       'id': 'postcards',
@@ -34,17 +33,18 @@ export default {
       'link_desc': 'View the \'cards &raquo;'
     },
     {
-      'id': 'jfdenver',
-      'icon': '🌲',
-      'name': 'JFDenver',
+      'id': 'public-faces',
+      'icon': '👾',
+      'name': 'Public Faces',
       'type': 'Photo Collection',
-      'tech': ['Mobile Photography', 'Gallery', 'Travel'],
-      'desc': 'All things Colorado; All the time',
+      'tech': ['Mobile Photography', 'Collage'],
+      'desc': 'Ever seen something that looks like a face in public? I see it often.',
       'descArray': [
-        'All things Colorado; All the time'
+        'Ever seen something that looks like a face in public?',
+        'I see it often, and now you will too.'
       ],
-      'link': 'https://chadwithuhc.github.io/prototypes/flickr-api/build/#/collage',
-      'link_desc': 'Colorado photos by location &raquo;'
+      'link': 'https://chadwithuhc.github.io/prototypes/flickr-api/build/#/public-faces',
+      'link_desc': 'View collection &raquo;'
     },
     // {
     //   'id': 'stadium-sunsets',

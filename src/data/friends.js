@@ -2,7 +2,7 @@ export default {
   'name': 'friends',
   'description': 'Friends who inspire me',
   intro: [
-    `I grew up on the "mean" streets of Cypress, CA 🔫`,
+    `🌞 I grew up on the sunny streets of Orange County, CA`,
     `<code>this</code> is where I brag about my friends from the streets`,
     `... and one guy from Texas 🌵`
   ],
@@ -74,7 +74,7 @@ export default {
       'tech': ['Skateboarding', 'SDZ', 'Furnace Skate Shop'],
       'desc': 'A bunch of kids from Cypress, CA. Born and bred to rip and shred.',
       'descArray': [
-        'A bunch of kids from Cypress, CA.',
+        'A bunch of kids from Orange County, CA.',
         'Born and bred to rip and shred.'
       ],
       'link': 'https://vimeo.com/album/154707',

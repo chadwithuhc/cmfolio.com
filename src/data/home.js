@@ -1,18 +1,18 @@
 export default {
   name: 'home',
   intro: [
-    `🦁 Howdy, I'm <a class="hashlink" title="🧀">cheddar</a>; a <a class="hashlink">developer</a> and <a class="hashlink">teacher</a> with a dash of <a class="hashlink">creative</a>`,
+    `🦁 Howdy, I'm <a class="hashlink" title="🧀">cheddar</a>; a <a class="hashlink">developer</a> and <a class="hashlink">mentor</a> with a dash of <a class="hashlink">creative</a>`,
     `🥞 I work on lots of <a class="hashlink" href="https://trello.com/b/I55MZ3d3" target="_blank" rel="noopener noreferrer">ideas</a> at once, mostly involving <a href="https://github.com/chadwithuhc" target="_blank" rel="noopener noreferrer" class="hashlink">code</a>, <a class="hashlink">design</a>, or <a class="hashlink" title="user experience">ux</a>`,
     `🌴 California 🛫 ... 🛬 Denver, CO 🌲`
   ],
   currently_i_am_working_on: [
     `🗣 Streaming Live Coding on <a href="https://twitch.tv/ched_dev" target="_blank" rel="noopener noreferrer">Twitch</a>`,
-    `🔎 <em>Warehouse Deals</em> &ndash; An Amazon Product Price scanner for new and used deals`,
-    `📖 <a href="https://studybook-app.firebaseapp.com/books" target="_blank" rel="noreferrer noopener"><em>Studybook App</em></a> &ndash; A notebook for studying`,
+    `🔎 <a href="https://unboxed.deals" target="_blank" rel="noopener noreferrer">Unboxed Deals</a> &ndash; An Amazon Product Price scanner for new and used deals`,
+    `📖 <em>Studybook App</em> &ndash; A notebook for studying`,
     `📈 <em>Tracker</em> &ndash; A personal data tracking mobile application`,
   ],
   currently_i_am_learning: [
-    `🐽 Typescript, but not because I want to`,
+    `🎩 Monorepos and Software Craftsmanship`,
     `📡 Producing a Live Stream`,
     `📸 Learning Landscape Photography`
     // `🐩 Adobe XD for Design and Prototyping`,
@@ -26,7 +26,9 @@ export default {
     // `🎹 Musical Skills: Guitar, Keyboard, Drums`,
   ],
   recently_i_updated: [
-    `💭 Live Coding: <a href="https://www.youtube.com/playlist?list=PLDPa5Jo5XXRwTsubtXe0OR4bdswKL39F-">Building an Amazon Product Price Scanner with Node.js, NextJS, and React</a>`
+    `💭 Live Coding: <a href="https://www.youtube.com/playlist?list=PLDPa5Jo5XXRyo_bPWNEcaKv-Sctm1iTOY" target="_blank" rel="noopener noreferrer">unboxed.deals - a tool to find Amazon Warehouse Deals on used products</a>`,
+    `💭 Live Coding: <a href="https://www.youtube.com/playlist?list=PLDPa5Jo5XXRzj31CiA5HGBRwfmWXYU-Np" target="_blank" rel="noopener noreferrer">MegaAPI, a Headless CMS and API in one using Directus.io</a>`,
+    `🚀 Rocket League Platinum Level`
     // `🍕 Meetup Talk: Building a JAMstack site with NextJS + Netlify CMS (Coming Soon) <a href="https://www.meetup.com/Node-js-Denver-Boulder/events/ktpcnrybcmbwb/" target="_blank" rel="noopener noreferrer">&raquo;&raquo;</a>`,
     // `🛡 100% completion of <em>Zelda: Breath of the Wild</em>`,
     // `👾 Defeating Gannon and buying a home in Hateno Village`,

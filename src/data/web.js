@@ -7,65 +7,26 @@ export default {
     // `5 kyu (top 15th percentile) ranking on <a href="https://www.codewars.com/users/chadwithuhc" target="_blank" rel="noopener noreferrer">CodeWars</a>`
   ],
   'projects': [
-    {
-      'id': 'dev-terms',
-      'icon': '🤓',
-      'name': 'Dev Terms',
-      'type': 'Application',
-      'tech': [
-        'RESTful API',
-        'ReactJS',
-        'OAuth',
-        'PostgreSQL',
-        'Open Source'
-      ],
-      'desc': 'A collection of terms, topics, questions and definitions for developers',
-      'descArray': [
-        'A collection of terms, topics, questions',
-        'and definitions for developers'
-      ],
-      'link': 'https://dev-terms.firebaseapp.com',
-      'link_desc': 'Learn something new &raquo;'
-    },
-    {
-      'id': 'everybody-writes',
-      'icon': '✏️',
-      'name': 'Real Time Classroom Board',
-      'type': 'Application',
-      'tech': [
-        'JavaScript',
-        'ES6 Classes',
-        'Socket.io',
-        'Open Source'
-      ],
-      'desc': 'A real-time classroom feedback tool in your browser, featuring various editor types',
-      'descArray': [
-        'A real-time classroom feedback tool in your browser',
-        'featuring various editor types'
-      ],
-      'link': 'https://github.com/chadwithuhc/everybody-writes',
-      'link_desc': 'Peruse le code &raquo;'
-    },
-    {
-      'id': 'lp',
-      'icon': '📓',
-      'name': 'Digital Lesson Planner',
-      'type': 'Application',
-      'tech': [
-        'JavaScript',
-        'Components',
-        'ReactJS',
-        'Firebase',
-        'Open Source'
-      ],
-      'desc': 'A digital lesson planner supporting objectives and real-time CFUs from students',
-      'descArray': [
-        'A digital lesson planner supporting objectives',
-        'and real-time CFUs from students'
-      ],
-      'link': 'https://github.com/gshrike/lp',
-      'link_desc': 'Graze the code &raquo;'
-    },
+    // {
+    //   'id': 'dev-terms',
+    //   'icon': '🤓',
+    //   'name': 'Dev Terms',
+    //   'type': 'Application',
+    //   'tech': [
+    //     'RESTful API',
+    //     'ReactJS',
+    //     'OAuth',
+    //     'PostgreSQL',
+    //     'Open Source'
+    //   ],
+    //   'desc': 'A collection of terms, topics, questions and definitions for developers',
+    //   'descArray': [
+    //     'A collection of terms, topics, questions',
+    //     'and definitions for developers'
+    //   ],
+    //   'link': 'https://dev-terms.firebaseapp.com',
+    //   'link_desc': 'Learn something new &raquo;'
+    // },
     {
       'id': 'ds-org-data-center',
       'icon': '📈',
@@ -85,6 +46,44 @@ export default {
       ],
       'link': 'https://chadwithuhc.github.io/ds-org/custom-data-reporting/',
       'link_desc': 'Custom Data Reporting Example &raquo;'
+    },
+    {
+      'id': 'ds-org-rankings-grid',
+      'icon': '⌗',
+      'name': 'Flexible Data Grid',
+      'type': 'UI Component',
+      'tech': [
+        'Components',
+        'Data Grid',
+        'BEM CSS',
+        'AngularJS'
+      ],
+      'desc': 'Data grid with sticky headers, scrolling, sorting, and dragging capabilities.',
+      'descArray': [
+        'Data grid with sticky headers, scrolling,',
+        'sorting, and dragging capabilities'
+      ],
+      'link': 'https://chadwithuhc.github.io/ds-org/flexible-data-grid/',
+      'link_desc': 'Data Grid Example &raquo;'
+    },
+    {
+      'id': 'redkix-landing',
+      'icon': '📲',
+      'name': 'Responsive Website',
+      'type': 'Responsive',
+      'tech': [
+        'Responsive',
+        'Scrolling Effects',
+        'Hubspot Integration',
+        'CSS Animations'
+      ],
+      'desc': 'Startup landing page with scrolling effects and Hubspot integration in a responsive full-page layout.',
+      'descArray': [
+        'Startup landing page with scrolling effects and',
+        'Hubspot integration in a responsive full-page layout'
+      ],
+      'link': 'https://chadwithuhc.github.io/startup-website/sitemap',
+      'link_desc': 'Responsive Landing Page Example &raquo;'
     },
     {
       'id': 'ds-org-style-guide',
@@ -124,42 +123,43 @@ export default {
       'link_desc': 'Responsive Navigation Example &raquo;'
     },
     {
-      'id': 'ds-org-rankings-grid',
-      'icon': '⌗',
-      'name': 'Flexible Data Grid',
-      'type': 'UI Component',
+      'id': 'everybody-writes',
+      'icon': '✏️',
+      'name': 'Real Time Classroom Board',
+      'type': 'Application',
       'tech': [
-        'Components',
-        'Data Grid',
-        'BEM CSS',
-        'AngularJS'
+        'JavaScript',
+        'ES6 Classes',
+        'Socket.io',
+        'Open Source'
       ],
-      'desc': 'Data grid with sticky headers, scrolling, sorting, and dragging capabilities.',
+      'desc': 'A real-time classroom feedback tool in your browser, featuring various editor types',
       'descArray': [
-        'Data grid with sticky headers, scrolling,',
-        'sorting, and dragging capabilities'
+        'A real-time classroom feedback tool in your browser',
+        'featuring various editor types'
       ],
-      'link': 'https://chadwithuhc.github.io/ds-org/flexible-data-grid/',
-      'link_desc': 'Data Grid Example &raquo;'
+      'link': 'https://github.com/chadwithuhc/everybody-writes',
+      'link_desc': 'Peruse le code &raquo;'
     },
     {
-      'id': 'redkix-landing',
-      'icon': '📲',
-      'name': 'Responsive Website',
-      'type': 'Responsive',
+      'id': 'lp',
+      'icon': '📓',
+      'name': 'Digital Lesson Planner',
+      'type': 'Application',
       'tech': [
-        'Responsive',
-        'Scrolling Effects',
-        'Hubspot Integration',
-        'CSS Animations'
+        'JavaScript',
+        'Components',
+        'ReactJS',
+        'Firebase',
+        'Open Source'
       ],
-      'desc': 'Startup landing page with scrolling effects and Hubspot integration in a responsive full-page layout.',
+      'desc': 'A digital lesson planner supporting objectives and real-time CFUs from students',
       'descArray': [
-        'Startup landing page with scrolling effects and',
-        'Hubspot integration in a responsive full-page layout'
+        'A digital lesson planner supporting objectives',
+        'and real-time CFUs from students'
       ],
-      'link': 'https://chadwithuhc.github.io/startup-website/sitemap',
-      'link_desc': 'Responsive Landing Page Example &raquo;'
+      'link': 'https://github.com/gshrike/lp',
+      'link_desc': 'Graze the code &raquo;'
     },
     /*{
       'id': 'members-directory',
